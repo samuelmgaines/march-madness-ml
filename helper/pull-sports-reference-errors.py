@@ -26,6 +26,8 @@ for error in error_list:
     year, team, status_code = error.strip().split(',')
     if team not in sr_names:
         logging.warning(f"Could not find Sports Reference name for {team}. Skipping...")
+        with open(f'{errors_path}/{error_list_filename}', 'a') as f:
+            f.write(f"{year},{team},Team name not found\n")
         continue
     sr_team = sr_names[team]
     schedule_response = requests.get(f"https://www.sports-reference.com/cbb/schools/{sr_team}/men/{year}-schedule.html")
