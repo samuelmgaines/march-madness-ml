@@ -9,7 +9,7 @@ logging.getLogger().setLevel(logging.INFO) # toggle logging level
 # configure file paths
 mm_results_path = './data/mm-results.csv'
 sports_reference_names_path = 'sports-reference-names.json'
-errors_path = './data/errors'
+errors_path = 'errors'
 error_list_filename = 'error-list.txt'
 data_yearly_path = './data/yearly'
 
@@ -31,6 +31,8 @@ for year in range(1985, 2020):
     for team in teams:
         if team not in sr_names:
             logging.warning(f"Could not find Sports Reference name for {team}. Skipping...")
+            with open(f'{errors_path}/{error_list_filename}', 'a') as f:
+                f.write(f"{year},{team},Team name not found\n")
             continue
         sr_team = sr_names[team]
         schedule_response = requests.get(f"https://www.sports-reference.com/cbb/schools/{sr_team}/men/{year}-schedule.html")
@@ -38,8 +40,8 @@ for year in range(1985, 2020):
             with open(f'{errors_path}/{year}-{team}.html', 'w') as f:
                 f.write(schedule_response.text)
             with open(f'{errors_path}/{error_list_filename}', 'a') as f:
-                f.write(f"{year}-{team}: {schedule_response.status_code}\n")
-            logging.error(f"Error retrieving schedule for {team} in {year}")
+                f.write(f"{year},{team},{schedule_response.status_code}\n")
+            logging.error(f"Error retrieving schedule for {team} in {year} (code {schedule_response.status_code})")
         else:
             with open(f'{data_yearly_path}/{year}-{team}.html', 'w') as f:
                 f.write(schedule_response.text)
