@@ -18,12 +18,18 @@ Team stats from each season are pulled from [SportsReference](https://www.sports
 
 ### Download Seasonal Stats
 
-Before training the model, seasonal data for each March Madness team must be scraped from SportsReference. To do this, run `helper/pull-sports-reference.py`. This will take a few hours since SportsReference has a rate-limiting policy. When the process is complete, data can be found in `data/yearly` with filename format `YEAR-Team.html`.
+Before training the model, seasonal data for each March Madness team must be scraped from SportsReference. To do this, run `helper/pull-sports-reference.py`. This will take a few hours since SportsReference has a rate-limiting policy. When the process is complete, data can be found in `data/yearly` with filename format `Year-Team.json`.
 
-A list of any errors from the load can be found in `helper/errors/error-list.txt`. Each line in this file represents an error and has the format `YEAR,Team,Error code`. The full error response for each request can be found in `helper/errors/YEAR-Team.html`.
+A list of any errors from the load can be found in `helper/errors/error-list.txt`. Each line in this file represents an error and has the format `Year,Team,Error code`. The full error response for each request can be found in `helper/errors/Year-Team.html`.
 
 An error code of `Team name not found` signifies that the team was not found in `helper/sports-reference-names.json`. Add it as a key in this file and set the value to the team's SportsReference name. To find this, visit https://www.sports-reference.com/cbb/schools/ and click on the team. The URL will then have the format `https://www.sports-reference.com/cbb/schools/TEAM/men/`, where `TEAM` is the SportsReference team name.
 
 Similarly, an error code of `404` most likely signifies that the SportsReference team name is incorrect in `helper/sports-reference-names.json`.
+
+An error code of `No schedule found` signifies that the table was not located in the HTML response. Further troubleshooting should be done to discover why this might be.
+
+An error code of `Error parsing table` signifies that the table could not be parsed correctly for some reason. Like before, further troubleshooting should be done.
+
+Any other error codes will also require further troubleshooting.
 
 Once all errors are addressed, delete all files from the `helper/errors` directory (except `error-list.txt`). Then, run `helper/pull-sports-reference-errors.py` to pull data from the seasons specified in `error-list.txt`. If there are any more errors, repeat the troubleshooting process.

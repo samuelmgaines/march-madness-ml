@@ -1,3 +1,5 @@
 .env
 data/yearly
 data/yearly/*
+backup-data
+backup-data/*
