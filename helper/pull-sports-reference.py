@@ -45,7 +45,6 @@ data_yearly_path = '../data/yearly'
 
 df = pd.read_csv(mm_results_path)
 
-yearly_team_stats = {}
 with open(sports_reference_names_path) as f:
     sr_names = json.load(f)
 
