@@ -1,33 +1,33 @@
 Year,Round,Region Number,Region Name,Seed 1,Score 1,Team 1,Team 2,Score 2,Seed 2
 2011,1,1,East,1,75,Ohio St,Texas San Antonio,46,16
-2011,1,1,East,2,102,North Carolina,Long Island Brooklyn,87,15
-2011,1,1,East,3,77,Syracuse,Indiana St,60,14
-2011,1,1,East,4,59,Kentucky,Princeton,57,13
-2011,1,1,East,5,84,West Virginia,Clemson,78,12
-2011,1,1,East,6,55,Xavier,Marquette,66,11
-2011,1,1,East,7,68,Washington,Georgia,65,10
 2011,1,1,East,8,61,George Mason,Villanova,57,9
+2011,1,1,East,5,84,West Virginia,Clemson,78,12
+2011,1,1,East,4,59,Kentucky,Princeton,57,13
+2011,1,1,East,6,55,Xavier,Marquette,66,11
+2011,1,1,East,3,77,Syracuse,Indiana St,60,14
+2011,1,1,East,7,68,Washington,Georgia,65,10
+2011,1,1,East,2,102,North Carolina,Long Island Brooklyn,87,15
 2011,1,2,West,1,87,Duke,Hampton,45,16
-2011,1,2,West,2,68,San Diego St,Northern Colorado,50,15
-2011,1,2,West,3,81,Connecticut,Bucknell,52,14
-2011,1,2,West,4,85,Texas,Oakland,81,13
-2011,1,2,West,5,77,Arizona,Memphis,75,12
-2011,1,2,West,6,78,Cincinnati,Missouri,63,11
-2011,1,2,West,7,66,Temple,Penn St,64,10
 2011,1,2,West,8,75,Michigan,Tennessee,45,9
+2011,1,2,West,5,77,Arizona,Memphis,75,12
+2011,1,2,West,4,85,Texas,Oakland,81,13
+2011,1,2,West,6,78,Cincinnati,Missouri,63,11
+2011,1,2,West,3,81,Connecticut,Bucknell,52,14
+2011,1,2,West,7,66,Temple,Penn St,64,10
+2011,1,2,West,2,68,San Diego St,Northern Colorado,50,15
 2011,1,3,Southwest,1,72,Kansas,Boston University,53,16
-2011,1,3,Southwest,2,69,Notre Dame,Akron,56,15
-2011,1,3,Southwest,3,65,Purdue,St Peters,43,14
-2011,1,3,Southwest,4,61,Louisville,Morehead St,62,13
-2011,1,3,Southwest,5,66,Vanderbilt,Richmond,69,12
-2011,1,3,Southwest,6,56,Georgetown,VCU,74,11
-2011,1,3,Southwest,7,50,Texas A&M,Florida St,57,10
 2011,1,3,Southwest,8,62,UNLV,Illinois,73,9
+2011,1,3,Southwest,5,66,Vanderbilt,Richmond,69,12
+2011,1,3,Southwest,4,61,Louisville,Morehead St,62,13
+2011,1,3,Southwest,6,56,Georgetown,VCU,74,11
+2011,1,3,Southwest,3,65,Purdue,St Peters,43,14
+2011,1,3,Southwest,7,50,Texas A&M,Florida St,57,10
+2011,1,3,Southwest,2,69,Notre Dame,Akron,56,15
 2011,1,4,Southeast,1,74,Pittsburgh,UNC Asheville,51,16
-2011,1,4,Southeast,2,79,Florida,Santa Barbara,51,15
-2011,1,4,Southeast,3,74,BYU,Wofford,66,14
-2011,1,4,Southeast,4,72,Wisconsin,Belmont,58,13
-2011,1,4,Southeast,5,73,Kansas St,Utah St,68,12
-2011,1,4,Southeast,6,71,St Johns,Gonzaga,86,11
-2011,1,4,Southeast,7,78,UCLA,Michigan St,76,10
 2011,1,4,Southeast,8,60,Butler,Old Dominion,58,9
+2011,1,4,Southeast,5,73,Kansas St,Utah St,68,12
+2011,1,4,Southeast,4,72,Wisconsin,Belmont,58,13
+2011,1,4,Southeast,6,71,St Johns,Gonzaga,86,11
+2011,1,4,Southeast,3,74,BYU,Wofford,66,14
+2011,1,4,Southeast,7,78,UCLA,Michigan St,76,10
+2011,1,4,Southeast,2,79,Florida,Santa Barbara,51,15

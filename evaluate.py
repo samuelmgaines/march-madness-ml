@@ -36,3 +36,4 @@ for year in eval_years:
         print(f"Year: {year}, Round: {round}, Correct Predictions: {num_correct_predictions}/{num_games} ({num_correct_predictions/num_games:.0%})")
     
     print(f"Year: {year}, Total Correct Predictions: {num_correct_predictions_total}/63 ({num_correct_predictions_total/63:.0%})")
+    print()

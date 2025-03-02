@@ -1,33 +1,33 @@
 Year,Round,Region Number,Region Name,Seed 1,Score 1,Team 1,Team 2,Score 2,Seed 2
 2019,1,1,East,1,85,Duke,North Dakota St,62,16
-2019,1,1,East,2,76,Michigan St,Bradley,65,15
-2019,1,1,East,3,79,LSU,Yale,74,14
-2019,1,1,East,4,66,Virginia Tech,St Louis,52,13
-2019,1,1,East,5,76,Mississippi St,Liberty,80,12
-2019,1,1,East,6,79,Maryland,Belmont,77,11
-2019,1,1,East,7,76,Louisville,Minnesota,86,10
 2019,1,1,East,8,58,VCU,Central Florida,73,9
+2019,1,1,East,5,76,Mississippi St,Liberty,80,12
+2019,1,1,East,4,66,Virginia Tech,St Louis,52,13
+2019,1,1,East,6,79,Maryland,Belmont,77,11
+2019,1,1,East,3,79,LSU,Yale,74,14
+2019,1,1,East,7,76,Louisville,Minnesota,86,10
+2019,1,1,East,2,76,Michigan St,Bradley,65,15
 2019,1,2,West,1,87,Gonzaga,Fairleigh Dickinson,49,16
-2019,1,2,West,2,74,Michigan,Montana,55,15
-2019,1,2,West,3,72,Texas Tech,Northern Kentucky,57,14
-2019,1,2,West,4,76,Florida St,Vermont,69,13
-2019,1,2,West,5,64,Marquette,Murray St,83,12
-2019,1,2,West,6,91,Buffalo,Arizona St,74,11
-2019,1,2,West,7,61,Nevada,Florida,70,10
 2019,1,2,West,8,69,Syracuse,Baylor,78,9
+2019,1,2,West,5,64,Marquette,Murray St,83,12
+2019,1,2,West,4,76,Florida St,Vermont,69,13
+2019,1,2,West,6,91,Buffalo,Arizona St,74,11
+2019,1,2,West,3,72,Texas Tech,Northern Kentucky,57,14
+2019,1,2,West,7,61,Nevada,Florida,70,10
+2019,1,2,West,2,74,Michigan,Montana,55,15
 2019,1,3,South,1,71,Virginia,Gardner Webb,56,16
-2019,1,3,South,2,77,Tennessee,Colgate,70,15
-2019,1,3,South,3,61,Purdue,Old Dominion,48,14
-2019,1,3,South,4,64,Kansas St,UC Irvine,70,13
-2019,1,3,South,5,54,Wisconsin,Oregon,72,12
-2019,1,3,South,6,61,Villanova,St Marys,57,11
-2019,1,3,South,7,72,Cincinnati,Iowa,79,10
 2019,1,3,South,8,72,Ole Miss,Oklahoma,95,9
+2019,1,3,South,5,54,Wisconsin,Oregon,72,12
+2019,1,3,South,4,64,Kansas St,UC Irvine,70,13
+2019,1,3,South,6,61,Villanova,St Marys,57,11
+2019,1,3,South,3,61,Purdue,Old Dominion,48,14
+2019,1,3,South,7,72,Cincinnati,Iowa,79,10
+2019,1,3,South,2,77,Tennessee,Colgate,70,15
 2019,1,4,Midwest,1,88,North Carolina,Iona,73,16
-2019,1,4,Midwest,2,79,Kentucky,Abilene Christian,44,15
-2019,1,4,Midwest,3,84,Houston,Georgia St,55,14
-2019,1,4,Midwest,4,87,Kansas,Northeastern,53,13
-2019,1,4,Midwest,5,78,Auburn,New Mexico St,77,12
-2019,1,4,Midwest,6,59,Iowa St,Ohio St,62,11
-2019,1,4,Midwest,7,84,Wofford,Seton Hall,68,10
 2019,1,4,Midwest,8,61,Utah St,Washington,78,9
+2019,1,4,Midwest,5,78,Auburn,New Mexico St,77,12
+2019,1,4,Midwest,4,87,Kansas,Northeastern,53,13
+2019,1,4,Midwest,6,59,Iowa St,Ohio St,62,11
+2019,1,4,Midwest,3,84,Houston,Georgia St,55,14
+2019,1,4,Midwest,7,84,Wofford,Seton Hall,68,10
+2019,1,4,Midwest,2,79,Kentucky,Abilene Christian,44,15
