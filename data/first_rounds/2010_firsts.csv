@@ -1,33 +1,33 @@
-Year,Round,Region Number,Region Name,Seed 1,Score 1,Team 1,Team 2,Score 2,Seed 2
-2010,1,1,Midwest,1,90,Kansas,Lehigh,74,16
-2010,1,1,Midwest,8,66,UNLV,Northern Iowa,69,9
-2010,1,1,Midwest,5,70,Michigan St,New Mexico St,67,12
-2010,1,1,Midwest,4,89,Maryland,Houston,77,13
-2010,1,1,Midwest,6,62,Tennessee,San Diego St,59,11
-2010,1,1,Midwest,3,83,Georgetown,Ohio,97,14
-2010,1,1,Midwest,7,59,Oklahoma St,Georgia Tech,64,10
-2010,1,1,Midwest,2,68,Ohio St,Santa Barbara,51,15
-2010,1,2,West,1,79,Syracuse,Vermont,56,16
-2010,1,2,West,8,67,Gonzaga,Florida St,60,9
-2010,1,2,West,5,77,Butler,UTEP,59,12
-2010,1,2,West,4,65,Vanderbilt,Murray St,66,13
-2010,1,2,West,6,65,Xavier,Minnesota,54,11
-2010,1,2,West,3,89,Pittsburgh,Oakland,66,14
-2010,1,2,West,7,99,BYU,Florida,92,10
-2010,1,2,West,2,82,Kansas St,North Texas,62,15
-2010,1,3,East,1,100,Kentucky,East Tennessee St,71,16
-2010,1,3,East,8,80,Texas,Wake Forest,81,9
-2010,1,3,East,5,65,Temple,Cornell,78,12
-2010,1,3,East,4,53,Wisconsin,Wofford,49,13
-2010,1,3,East,6,78,Marquette,Washington,80,11
-2010,1,3,East,3,62,New Mexico,Montana,57,14
-2010,1,3,East,7,78,Clemson,Missouri,86,10
-2010,1,3,East,2,77,West Virginia,Morgan St,50,15
-2010,1,4,South,1,73,Duke,Arkansas Pine Bluff,44,16
-2010,1,4,South,8,77,California,Louisville,62,9
-2010,1,4,South,5,69,Texas A&M,Utah St,53,12
-2010,1,4,South,4,72,Purdue,Siena,64,13
-2010,1,4,South,6,50,Notre Dame,Old Dominion,51,11
-2010,1,4,South,3,68,Baylor,Sam Houston St,59,14
-2010,1,4,South,7,71,Richmond,St Marys,80,10
-2010,1,4,South,2,73,Villanova,Robert Morris,70,15
+Year,Round,Region Number,Region Name,Seed 1,Team 1,Team 2,Seed 2
+2010,1,1,Midwest,1,Kansas,Lehigh,16
+2010,1,1,Midwest,8,UNLV,Northern Iowa,9
+2010,1,1,Midwest,5,Michigan St,New Mexico St,12
+2010,1,1,Midwest,4,Maryland,Houston,13
+2010,1,1,Midwest,6,Tennessee,San Diego St,11
+2010,1,1,Midwest,3,Georgetown,Ohio,14
+2010,1,1,Midwest,7,Oklahoma St,Georgia Tech,10
+2010,1,1,Midwest,2,Ohio St,Santa Barbara,15
+2010,1,2,West,1,Syracuse,Vermont,16
+2010,1,2,West,8,Gonzaga,Florida St,9
+2010,1,2,West,5,Butler,UTEP,12
+2010,1,2,West,4,Vanderbilt,Murray St,13
+2010,1,2,West,6,Xavier,Minnesota,11
+2010,1,2,West,3,Pittsburgh,Oakland,14
+2010,1,2,West,7,BYU,Florida,10
+2010,1,2,West,2,Kansas St,North Texas,15
+2010,1,3,East,1,Kentucky,East Tennessee St,16
+2010,1,3,East,8,Texas,Wake Forest,9
+2010,1,3,East,5,Temple,Cornell,12
+2010,1,3,East,4,Wisconsin,Wofford,13
+2010,1,3,East,6,Marquette,Washington,11
+2010,1,3,East,3,New Mexico,Montana,14
+2010,1,3,East,7,Clemson,Missouri,10
+2010,1,3,East,2,West Virginia,Morgan St,15
+2010,1,4,South,1,Duke,Arkansas Pine Bluff,16
+2010,1,4,South,8,California,Louisville,9
+2010,1,4,South,5,Texas A&M,Utah St,12
+2010,1,4,South,4,Purdue,Siena,13
+2010,1,4,South,6,Notre Dame,Old Dominion,11
+2010,1,4,South,3,Baylor,Sam Houston St,14
+2010,1,4,South,7,Richmond,St Marys,10
+2010,1,4,South,2,Villanova,Robert Morris,15
