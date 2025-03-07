@@ -8,6 +8,15 @@ from xgboost import XGBClassifier
 import time
 from sklearn.ensemble import RandomForestClassifier
 
+# Helper function to get srs score from string
+def get_srs(srs_str):
+    if srs_str:  # Ensure it's not empty
+        try:
+            return float(srs_str)  # Convert safely
+        except ValueError:
+            return 0
+    return 0
+
 # Extract team level stats
 def load_team_stats(year, team_name):
     file_path = f"data/yearly/{year}-{team_name}.json"
@@ -40,9 +49,14 @@ def load_team_stats(year, team_name):
     
     srs_avg = sum(srs_values) / len(srs_values)
     win_percentage = sum(1 for g in regular_season_games if g["game_result"] == "W") / total_games
-    avg_point_diff = sum(int(g["pts"]) - int(g["opp_pts"]) for g in regular_season_games) / total_games
+    avg_points = sum(int(g["pts"]) for g in regular_season_games) / total_games
+    avg_opp_points = sum(int(g["opp_pts"]) for g in regular_season_games) / total_games
+    streak_score = 0
+    for i, g in enumerate(regular_season_games[-10:]):
+        if g["game_result"] == "W":
+            streak_score += (i + 1)/10 * get_srs(g.get("srs", "").strip())
 
-    return {"SRS": srs_avg, "Win%": win_percentage, "PointDiff": avg_point_diff}
+    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score}
 
 print("Loading data...")
 start_time = time.time()
@@ -50,6 +64,7 @@ start_time = time.time()
 # Merge team stats with March Madness data
 march_madness_df = pd.read_csv("data/mm-results.csv")
 excluded_years = [2010, 2011, 2018, 2019]  # Exclude years to run brackets on later
+# excluded_years = []
 
 # Apply the condition to filter rows
 march_madness_df = march_madness_df[march_madness_df["Year"].apply(lambda x: x not in excluded_years)]
@@ -65,10 +80,25 @@ def add_team_stats(row):
         return None  # Skip if stats are missing
     
     return pd.Series({
-        "SRS_Diff": team1_stats["SRS"] - team2_stats["SRS"],
-        "Win%_Diff": team1_stats["Win%"] - team2_stats["Win%"],
-        "PointDiff_Diff": team1_stats["PointDiff"] - team2_stats["PointDiff"],
-        "Seed_Diff": row["Seed 1"] - row["Seed 2"],
+        "SRS_diff": team1_stats["SRS"] - team2_stats["SRS"],
+        "SRS_high": max(team1_stats["SRS"], team2_stats["SRS"]),
+        "SRS_low": min(team1_stats["SRS"], team2_stats["SRS"]),
+        "Win%_diff": team1_stats["Win%"] - team2_stats["Win%"],
+        "Win%_high": max(team1_stats["Win%"], team2_stats["Win%"]),
+        "Win%_low": min(team1_stats["Win%"], team2_stats["Win%"]),
+        "Ppg_diff": team1_stats["Ppg"] - team2_stats["Ppg"],
+        "Ppg_high": max(team1_stats["Ppg"], team2_stats["Ppg"]),
+        "Ppg_low": min(team1_stats["Ppg"], team2_stats["Ppg"]),
+        "Opp_ppg_diff": team1_stats["Opp Ppg"] - team2_stats["Opp Ppg"],
+        "Opp_ppg_high": max(team1_stats["Opp Ppg"], team2_stats["Opp Ppg"]),
+        "Opp_ppg_low": min(team1_stats["Opp Ppg"], team2_stats["Opp Ppg"]),
+        "Streak_high": max(team1_stats["Streak Score"], team2_stats["Streak Score"]),
+        "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
+        "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
+        "Seed_diff": row["Seed 1"] - row["Seed 2"],
+        "Seed_high": max(row["Seed 1"], row["Seed 2"]),
+        "Seed_low": min(row["Seed 1"], row["Seed 2"]),
+        "Round": row["Round"],  # Keep round for reference
         "Winner": 1 if row["Score 1"] > row["Score 2"] else 0  # Label for ML model
     })
 

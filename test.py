@@ -5,9 +5,17 @@ import pandas as pd
 # Load the trained model
 model = joblib.load("march_madness_model.pkl")
 
-import json
 import os
 import logging
+
+# Helper function to get srs score from string
+def get_srs(srs_str):
+    if srs_str:  # Ensure it's not empty
+        try:
+            return float(srs_str)  # Convert safely
+        except ValueError:
+            return 0
+    return 0
 
 # Extract team level stats
 def load_team_stats(year, team_name):
@@ -41,10 +49,14 @@ def load_team_stats(year, team_name):
     
     srs_avg = sum(srs_values) / len(srs_values)
     win_percentage = sum(1 for g in regular_season_games if g["game_result"] == "W") / total_games
-    avg_point_diff = sum(int(g["pts"]) - int(g["opp_pts"]) for g in regular_season_games) / total_games
+    avg_points = sum(int(g["pts"]) for g in regular_season_games) / total_games
+    avg_opp_points = sum(int(g["opp_pts"]) for g in regular_season_games) / total_games
+    streak_score = 0
+    for i, g in enumerate(regular_season_games[-10:]):
+        if g["game_result"] == "W":
+            streak_score += (i + 1)/10 * get_srs(g.get("srs", "").strip())
 
-    return {"SRS": srs_avg, "Win%": win_percentage, "PointDiff": avg_point_diff}
-
+    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score}
 
 # Load first-round matchups (assume this is from a CSV or pre-defined dataset)
 def load_first_round(year):
@@ -53,7 +65,7 @@ def load_first_round(year):
     return df
 
 # Predict game winners
-def predict_winner(team1, team2, seed1, seed2, year, model):
+def predict_winner(team1, team2, seed1, seed2, year, round, model):
     """Uses the model to predict the winner of a matchup."""
     team1_stats = load_team_stats(year, team1)
     team2_stats = load_team_stats(year, team2)
@@ -62,10 +74,25 @@ def predict_winner(team1, team2, seed1, seed2, year, model):
         return None  # Skip if data is missing
 
     features = pd.DataFrame([{
-        "SRS_Diff": team1_stats["SRS"] - team2_stats["SRS"],
-        "Win%_Diff": team1_stats["Win%"] - team2_stats["Win%"],
-        "PointDiff_Diff": team1_stats["PointDiff"] - team2_stats["PointDiff"],
-        "Seed_Diff": seed1 - seed2,
+        "SRS_diff": team1_stats["SRS"] - team2_stats["SRS"],
+        "SRS_high": max(team1_stats["SRS"], team2_stats["SRS"]),
+        "SRS_low": min(team1_stats["SRS"], team2_stats["SRS"]),
+        "Win%_diff": team1_stats["Win%"] - team2_stats["Win%"],
+        "Win%_high": max(team1_stats["Win%"], team2_stats["Win%"]),
+        "Win%_low": min(team1_stats["Win%"], team2_stats["Win%"]),
+        "Ppg_diff": team1_stats["Ppg"] - team2_stats["Ppg"],
+        "Ppg_high": max(team1_stats["Ppg"], team2_stats["Ppg"]),
+        "Ppg_low": min(team1_stats["Ppg"], team2_stats["Ppg"]),
+        "Opp_ppg_diff": team1_stats["Opp Ppg"] - team2_stats["Opp Ppg"],
+        "Opp_ppg_high": max(team1_stats["Opp Ppg"], team2_stats["Opp Ppg"]),
+        "Opp_ppg_low": min(team1_stats["Opp Ppg"], team2_stats["Opp Ppg"]),
+        "Streak_high": max(team1_stats["Streak Score"], team2_stats["Streak Score"]),
+        "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
+        "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
+        "Seed_diff": seed1 - seed2,
+        "Seed_high": max(seed1, seed2),
+        "Seed_low": min(seed1, seed2),
+        "Round": round
     }])
 
     return team1 if model.predict(features)[0] == 1 else team2
@@ -86,7 +113,7 @@ def simulate_bracket(year, model, output_file="predicted_bracket.json"):
             team1, team2 = game["Team 1"], game["Team 2"]
             seed1, seed2 = game["Seed 1"], game["Seed 2"]
             
-            winner = predict_winner(team1, team2, seed1, seed2, year, model)
+            winner = predict_winner(team1, team2, seed1, seed2, year, r, model)
             winners.append(winner)
             winning_seeds.append(seed1 if winner == team1 else seed2)
             rounds.append({"Round": r, "Matchup": f"{team1} vs {team2}", "Winner": winner})
