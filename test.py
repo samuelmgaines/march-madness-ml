@@ -129,5 +129,5 @@ def simulate_bracket(year, model, output_file="predicted_bracket.json"):
     print(f"Bracket saved to {output_file}")
 
 # Run bracket simulation
-for year in [2010, 2011, 2018, 2019]:
+for year in [2009, 2010, 2018, 2019]:
     simulate_bracket(year, model, output_file="predicted_brackets/predicted_bracket_{}.json".format(year))

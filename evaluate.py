@@ -4,7 +4,7 @@ import pandas as pd
 actual_results = pd.read_csv("data/mm-results.csv")
 
 # Filter for the evaluation years
-eval_years = [2010, 2011, 2018, 2019]
+eval_years = [2009, 2010, 2018, 2019]
 
 def get_actual_winners(games):
     winners = set()

@@ -63,7 +63,7 @@ start_time = time.time()
 
 # Merge team stats with March Madness data
 march_madness_df = pd.read_csv("data/mm-results.csv")
-excluded_years = [2010, 2011, 2018, 2019]  # Exclude years to run brackets on later
+excluded_years = [2009, 2010, 2018, 2019]  # Exclude years to run brackets on later
 # excluded_years = []
 
 # Apply the condition to filter rows

@@ -22,7 +22,7 @@
     {
         "Round": 1,
         "Matchup": "Maryland vs Belmont",
-        "Winner": "Maryland"
+        "Winner": "Belmont"
     },
     {
         "Round": 1,
@@ -32,7 +32,7 @@
     {
         "Round": 1,
         "Matchup": "Louisville vs Minnesota",
-        "Winner": "Minnesota"
+        "Winner": "Louisville"
     },
     {
         "Round": 1,
@@ -92,7 +92,7 @@
     {
         "Round": 1,
         "Matchup": "Wisconsin vs Oregon",
-        "Winner": "Oregon"
+        "Winner": "Wisconsin"
     },
     {
         "Round": 1,
@@ -127,7 +127,7 @@
     {
         "Round": 1,
         "Matchup": "Utah St vs Washington",
-        "Winner": "Washington"
+        "Winner": "Utah St"
     },
     {
         "Round": 1,
@@ -142,7 +142,7 @@
     {
         "Round": 1,
         "Matchup": "Iowa St vs Ohio St",
-        "Winner": "Iowa St"
+        "Winner": "Ohio St"
     },
     {
         "Round": 1,
@@ -171,12 +171,12 @@
     },
     {
         "Round": 2,
-        "Matchup": "Maryland vs LSU",
+        "Matchup": "Belmont vs LSU",
         "Winner": "LSU"
     },
     {
         "Round": 2,
-        "Matchup": "Minnesota vs Michigan St",
+        "Matchup": "Louisville vs Michigan St",
         "Winner": "Michigan St"
     },
     {
@@ -206,8 +206,8 @@
     },
     {
         "Round": 2,
-        "Matchup": "Oregon vs Kansas St",
-        "Winner": "Oregon"
+        "Matchup": "Wisconsin vs Kansas St",
+        "Winner": "Wisconsin"
     },
     {
         "Round": 2,
@@ -221,7 +221,7 @@
     },
     {
         "Round": 2,
-        "Matchup": "North Carolina vs Washington",
+        "Matchup": "North Carolina vs Utah St",
         "Winner": "North Carolina"
     },
     {
@@ -231,8 +231,8 @@
     },
     {
         "Round": 2,
-        "Matchup": "Iowa St vs Houston",
-        "Winner": "Iowa St"
+        "Matchup": "Ohio St vs Houston",
+        "Winner": "Houston"
     },
     {
         "Round": 2,
@@ -261,7 +261,7 @@
     },
     {
         "Round": 3,
-        "Matchup": "Virginia vs Oregon",
+        "Matchup": "Virginia vs Wisconsin",
         "Winner": "Virginia"
     },
     {
@@ -276,7 +276,7 @@
     },
     {
         "Round": 3,
-        "Matchup": "Iowa St vs Kentucky",
+        "Matchup": "Houston vs Kentucky",
         "Winner": "Kentucky"
     },
     {
