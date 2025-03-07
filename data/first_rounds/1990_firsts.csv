@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,1990,1,1,Southeast,Michigan St,Murray St,16
+8,1990,1,1,Southeast,Houston,Santa Barbara,9
+5,1990,1,1,Southeast,LSU,Villanova,12
+4,1990,1,1,Southeast,Georgia Tech,East Tennessee St,13
+6,1990,1,1,Southeast,Minnesota,UTEP,11
+3,1990,1,1,Southeast,Missouri,Northern Iowa,14
+7,1990,1,1,Southeast,Virginia,Notre Dame,10
+2,1990,1,1,Southeast,Syracuse,Coppin St,15
+1,1990,1,2,West,UNLV,Arkansas Little Rock,16
+8,1990,1,2,West,Ohio St,Providence,9
+5,1990,1,2,West,Oregon St,Ball St,12
+4,1990,1,2,West,Louisville,Idaho,13
+6,1990,1,2,West,New Mexico St,Loyola Marymount,11
+3,1990,1,2,West,Michigan,Illinois St,14
+7,1990,1,2,West,Alabama,Colorado St,10
+2,1990,1,2,West,Arizona,South Florida,15
+1,1990,1,3,East,Connecticut,Boston University,16
+8,1990,1,3,East,Indiana,California,9
+5,1990,1,3,East,Clemson,BYU,12
+4,1990,1,3,East,La Salle,Southern Mississippi,13
+6,1990,1,3,East,St Johns,Temple,11
+3,1990,1,3,East,Duke,Richmond,14
+7,1990,1,3,East,UCLA,UAB,10
+2,1990,1,3,East,Kansas,Robert Morris,15
+1,1990,1,4,Midwest,Oklahoma,Towson,16
+8,1990,1,4,Midwest,North Carolina,Southwest Missouri St,9
+5,1990,1,4,Midwest,Illinois,Dayton,12
+4,1990,1,4,Midwest,Arkansas,Princeton,13
+6,1990,1,4,Midwest,Xavier,Kansas St,11
+3,1990,1,4,Midwest,Georgetown,Texas Southern,14
+7,1990,1,4,Midwest,Georgia,Texas,10
+2,1990,1,4,Midwest,Purdue,Louisiana Monroe,15

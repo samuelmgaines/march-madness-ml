@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2002,1,1,South,Duke,Winthrop,16
+8,2002,1,1,South,Notre Dame,Charlotte,9
+5,2002,1,1,South,Indiana,Utah,12
+4,2002,1,1,South,USC,UNC Wilmington,13
+6,2002,1,1,South,California,Pennsylvania,11
+3,2002,1,1,South,Pittsburgh,Central Connecticut St,14
+7,2002,1,1,South,Oklahoma St,Kent St,10
+2,2002,1,1,South,Alabama,Florida Atlantic,15
+1,2002,1,2,West,Cincinnati,Boston University,16
+8,2002,1,2,West,UCLA,Ole Miss,9
+5,2002,1,2,West,Miami,Missouri,12
+4,2002,1,2,West,Ohio St,Davidson,13
+6,2002,1,2,West,Gonzaga,Wyoming,11
+3,2002,1,2,West,Arizona,Santa Barbara,14
+7,2002,1,2,West,Xavier,Hawaii,10
+2,2002,1,2,West,Oklahoma,Illinois Chicago,15
+1,2002,1,3,East,Maryland,Siena,16
+8,2002,1,3,East,Wisconsin,St Johns,9
+5,2002,1,3,East,Marquette,Tulsa,12
+4,2002,1,3,East,Kentucky,Valparaiso,13
+6,2002,1,3,East,Texas Tech,Southern Illinois,11
+3,2002,1,3,East,Georgia,Murray St,14
+7,2002,1,3,East,NC State,Michigan St,10
+2,2002,1,3,East,Connecticut,Hampton,15
+1,2002,1,4,Midwest,Kansas,Holy Cross,16
+8,2002,1,4,Midwest,Stanford,Western Kentucky,9
+5,2002,1,4,Midwest,Florida,Creighton,12
+4,2002,1,4,Midwest,Illinois,San Diego St,13
+6,2002,1,4,Midwest,Texas,Boston College,11
+3,2002,1,4,Midwest,Mississippi St,McNeese St,14
+7,2002,1,4,Midwest,Wake Forest,Pepperdine,10
+2,2002,1,4,Midwest,Oregon,Montana,15

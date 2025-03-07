@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,1999,1,1,East,Duke,Florida A&M,16
+8,1999,1,1,East,College of Charleston,Tulsa,9
+5,1999,1,1,East,Wisconsin,Southwest Missouri St,12
+4,1999,1,1,East,Tennessee,Delaware,13
+6,1999,1,1,East,Temple,Kent St,11
+3,1999,1,1,East,Cincinnati,George Mason,14
+7,1999,1,1,East,Texas,Purdue,10
+2,1999,1,1,East,Miami,Lafayette,15
+1,1999,1,2,Midwest,Michigan St,Mount St Marys,16
+8,1999,1,2,Midwest,Villanova,Ole Miss,9
+5,1999,1,2,Midwest,Charlotte,Rhode Island,12
+4,1999,1,2,Midwest,Arizona,Oklahoma,13
+6,1999,1,2,Midwest,Kansas,Evansville,11
+3,1999,1,2,Midwest,Kentucky,New Mexico St,14
+7,1999,1,2,Midwest,Washington,Miami Ohio,10
+2,1999,1,2,Midwest,Utah,Arkansas St,15
+1,1999,1,3,South,Auburn,Winthrop,16
+8,1999,1,3,South,Syracuse,Oklahoma St,9
+5,1999,1,3,South,UCLA,Detroit,12
+4,1999,1,3,South,Ohio St,Murray St,13
+6,1999,1,3,South,Indiana,George Washington,11
+3,1999,1,3,South,St Johns,Samford,14
+7,1999,1,3,South,Louisville,Creighton,10
+2,1999,1,3,South,Maryland,Valparaiso,15
+1,1999,1,4,West,Connecticut,Texas San Antonio,16
+8,1999,1,4,West,Missouri,New Mexico,9
+5,1999,1,4,West,Iowa,UAB,12
+4,1999,1,4,West,Arkansas,Siena,13
+6,1999,1,4,West,Florida,Pennsylvania,11
+3,1999,1,4,West,North Carolina,Weber St,14
+7,1999,1,4,West,Minnesota,Gonzaga,10
+2,1999,1,4,West,Stanford,Alcorn St,15

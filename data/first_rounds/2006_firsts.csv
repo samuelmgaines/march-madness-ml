@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2006,1,1,South,Duke,Southern,16
+8,2006,1,1,South,George Washington,UNC Wilmington,9
+5,2006,1,1,South,Syracuse,Texas A&M,12
+4,2006,1,1,South,LSU,Iona,13
+6,2006,1,1,South,West Virginia,Southern Illinois,11
+3,2006,1,1,South,Iowa,Northwestern St,14
+7,2006,1,1,South,California,NC State,10
+2,2006,1,1,South,Texas,Pennsylvania,15
+1,2006,1,2,West,Memphis,Oral Roberts,16
+8,2006,1,2,West,Arkansas,Bucknell,9
+5,2006,1,2,West,Pittsburgh,Kent St,12
+4,2006,1,2,West,Kansas,Bradley,13
+6,2006,1,2,West,Indiana,San Diego St,11
+3,2006,1,2,West,Gonzaga,Xavier,14
+7,2006,1,2,West,Marquette,Alabama,10
+2,2006,1,2,West,UCLA,Belmont,15
+1,2006,1,3,East,Connecticut,Albany,16
+8,2006,1,3,East,Kentucky,UAB,9
+5,2006,1,3,East,Washington,Utah St,12
+4,2006,1,3,East,Illinois,Air Force,13
+6,2006,1,3,East,Michigan St,George Mason,11
+3,2006,1,3,East,North Carolina,Murray St,14
+7,2006,1,3,East,Wichita St,Seton Hall,10
+2,2006,1,3,East,Tennessee,Winthrop,15
+1,2006,1,4,Midwest,Villanova,Monmouth,16
+8,2006,1,4,Midwest,Arizona,Wisconsin,9
+5,2006,1,4,Midwest,Nevada,Montana,12
+4,2006,1,4,Midwest,Boston College,Pacific,13
+6,2006,1,4,Midwest,Oklahoma,Wisconsin Milwaukee,11
+3,2006,1,4,Midwest,Florida,South Alabama,14
+7,2006,1,4,Midwest,Georgetown,Northern Iowa,10
+2,2006,1,4,Midwest,Ohio St,Davidson,15

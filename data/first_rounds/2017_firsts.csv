@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2017,1,1,East,Villanova,Mount St Marys,16
+8,2017,1,1,East,Wisconsin,Virginia Tech,9
+5,2017,1,1,East,Virginia,UNC Wilmington,12
+4,2017,1,1,East,Florida,East Tennessee St,13
+6,2017,1,1,East,SMU,USC,11
+3,2017,1,1,East,Baylor,New Mexico St,14
+7,2017,1,1,East,South Carolina,Marquette,10
+2,2017,1,1,East,Duke,Troy,15
+1,2017,1,2,West,Gonzaga,South Dakota St,16
+8,2017,1,2,West,Northwestern,Vanderbilt,9
+5,2017,1,2,West,Notre Dame,Princeton,12
+4,2017,1,2,West,West Virginia,Bucknell,13
+6,2017,1,2,West,Maryland,Xavier,11
+3,2017,1,2,West,Florida St,Florida Gulf Coast,14
+7,2017,1,2,West,St Marys,VCU,10
+2,2017,1,2,West,Arizona,North Dakota,15
+1,2017,1,3,Midwest,Kansas,UC Davis,16
+8,2017,1,3,Midwest,Miami,Michigan St,9
+5,2017,1,3,Midwest,Iowa St,Nevada,12
+4,2017,1,3,Midwest,Purdue,Vermont,13
+6,2017,1,3,Midwest,Creighton,Rhode Island,11
+3,2017,1,3,Midwest,Oregon,Iona,14
+7,2017,1,3,Midwest,Michigan,Oklahoma St,10
+2,2017,1,3,Midwest,Louisville,Jacksonville St,15
+1,2017,1,4,South,North Carolina,Texas Southern,16
+8,2017,1,4,South,Arkansas,Seton Hall,9
+5,2017,1,4,South,Minnesota,Middle Tennessee St,12
+4,2017,1,4,South,Butler,Winthrop,13
+6,2017,1,4,South,Cincinnati,Kansas St,11
+3,2017,1,4,South,UCLA,Kent St,14
+7,2017,1,4,South,Dayton,Wichita St,10
+2,2017,1,4,South,Kentucky,Northern Kentucky,15

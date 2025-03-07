@@ -1,33 +1,33 @@
-Year,Round,Region Number,Region Name,Seed 1,Team 1,Team 2,Seed 2
-2011,1,1,East,1,Ohio St,Texas San Antonio,16
-2011,1,1,East,8,George Mason,Villanova,9
-2011,1,1,East,5,West Virginia,Clemson,12
-2011,1,1,East,4,Kentucky,Princeton,13
-2011,1,1,East,6,Xavier,Marquette,11
-2011,1,1,East,3,Syracuse,Indiana St,14
-2011,1,1,East,7,Washington,Georgia,10
-2011,1,1,East,2,North Carolina,Long Island Brooklyn,15
-2011,1,2,West,1,Duke,Hampton,16
-2011,1,2,West,8,Michigan,Tennessee,9
-2011,1,2,West,5,Arizona,Memphis,12
-2011,1,2,West,4,Texas,Oakland,13
-2011,1,2,West,6,Cincinnati,Missouri,11
-2011,1,2,West,3,Connecticut,Bucknell,14
-2011,1,2,West,7,Temple,Penn St,10
-2011,1,2,West,2,San Diego St,Northern Colorado,15
-2011,1,3,Southwest,1,Kansas,Boston University,16
-2011,1,3,Southwest,8,UNLV,Illinois,9
-2011,1,3,Southwest,5,Vanderbilt,Richmond,12
-2011,1,3,Southwest,4,Louisville,Morehead St,13
-2011,1,3,Southwest,6,Georgetown,VCU,11
-2011,1,3,Southwest,3,Purdue,St Peters,14
-2011,1,3,Southwest,7,Texas A&M,Florida St,10
-2011,1,3,Southwest,2,Notre Dame,Akron,15
-2011,1,4,Southeast,1,Pittsburgh,UNC Asheville,16
-2011,1,4,Southeast,8,Butler,Old Dominion,9
-2011,1,4,Southeast,5,Kansas St,Utah St,12
-2011,1,4,Southeast,4,Wisconsin,Belmont,13
-2011,1,4,Southeast,6,St Johns,Gonzaga,11
-2011,1,4,Southeast,3,BYU,Wofford,14
-2011,1,4,Southeast,7,UCLA,Michigan St,10
-2011,1,4,Southeast,2,Florida,Santa Barbara,15
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2011,1,1,East,Ohio St,Texas San Antonio,16
+8,2011,1,1,East,George Mason,Villanova,9
+5,2011,1,1,East,West Virginia,Clemson,12
+4,2011,1,1,East,Kentucky,Princeton,13
+6,2011,1,1,East,Xavier,Marquette,11
+3,2011,1,1,East,Syracuse,Indiana St,14
+7,2011,1,1,East,Washington,Georgia,10
+2,2011,1,1,East,North Carolina,Long Island Brooklyn,15
+1,2011,1,2,West,Duke,Hampton,16
+8,2011,1,2,West,Michigan,Tennessee,9
+5,2011,1,2,West,Arizona,Memphis,12
+4,2011,1,2,West,Texas,Oakland,13
+6,2011,1,2,West,Cincinnati,Missouri,11
+3,2011,1,2,West,Connecticut,Bucknell,14
+7,2011,1,2,West,Temple,Penn St,10
+2,2011,1,2,West,San Diego St,Northern Colorado,15
+1,2011,1,3,Southwest,Kansas,Boston University,16
+8,2011,1,3,Southwest,UNLV,Illinois,9
+5,2011,1,3,Southwest,Vanderbilt,Richmond,12
+4,2011,1,3,Southwest,Louisville,Morehead St,13
+6,2011,1,3,Southwest,Georgetown,VCU,11
+3,2011,1,3,Southwest,Purdue,St Peters,14
+7,2011,1,3,Southwest,Texas A&M,Florida St,10
+2,2011,1,3,Southwest,Notre Dame,Akron,15
+1,2011,1,4,Southeast,Pittsburgh,UNC Asheville,16
+8,2011,1,4,Southeast,Butler,Old Dominion,9
+5,2011,1,4,Southeast,Kansas St,Utah St,12
+4,2011,1,4,Southeast,Wisconsin,Belmont,13
+6,2011,1,4,Southeast,St Johns,Gonzaga,11
+3,2011,1,4,Southeast,BYU,Wofford,14
+7,2011,1,4,Southeast,UCLA,Michigan St,10
+2,2011,1,4,Southeast,Florida,Santa Barbara,15

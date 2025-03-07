@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2004,1,1,Midwest,Kentucky,Florida A&M,16
+8,2004,1,1,Midwest,Washington,UAB,9
+5,2004,1,1,Midwest,Providence,Pacific,12
+4,2004,1,1,Midwest,Kansas,Illinois Chicago,13
+6,2004,1,1,Midwest,Boston College,Utah,11
+3,2004,1,1,Midwest,Georgia Tech,Northern Iowa,14
+7,2004,1,1,Midwest,Michigan St,Nevada,10
+2,2004,1,1,Midwest,Gonzaga,Valparaiso,15
+1,2004,1,2,East,St Josephs,Liberty,16
+8,2004,1,2,East,Texas Tech,Charlotte,9
+5,2004,1,2,East,Florida,Manhattan,12
+4,2004,1,2,East,Wake Forest,VCU,13
+6,2004,1,2,East,Wisconsin,Richmond,11
+3,2004,1,2,East,Pittsburgh,Central Florida,14
+7,2004,1,2,East,Memphis,South Carolina,10
+2,2004,1,2,East,Oklahoma St,Eastern Washington,15
+1,2004,1,3,South,Duke,Alabama St,16
+8,2004,1,3,South,Seton Hall,Arizona,9
+5,2004,1,3,South,Illinois,Murray St,12
+4,2004,1,3,South,Cincinnati,East Tennessee St,13
+6,2004,1,3,South,North Carolina,Air Force,11
+3,2004,1,3,South,Texas,Princeton,14
+7,2004,1,3,South,Xavier,Louisville,10
+2,2004,1,3,South,Mississippi St,Monmouth,15
+1,2004,1,4,West,Stanford,Texas San Antonio,16
+8,2004,1,4,West,Alabama,Southern Illinois,9
+5,2004,1,4,West,Syracuse,BYU,12
+4,2004,1,4,West,Maryland,UTEP,13
+6,2004,1,4,West,Vanderbilt,Western Michigan,11
+3,2004,1,4,West,NC State,Louisiana Lafayette,14
+7,2004,1,4,West,DePaul,Dayton,10
+2,2004,1,4,West,Connecticut,Vermont,15

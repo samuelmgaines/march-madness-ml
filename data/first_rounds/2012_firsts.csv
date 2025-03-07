@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2012,1,1,South,Kentucky,Western Kentucky,16
+8,2012,1,1,South,Iowa St,Connecticut,9
+5,2012,1,1,South,Wichita St,VCU,12
+4,2012,1,1,South,Indiana,New Mexico St,13
+6,2012,1,1,South,UNLV,Colorado,11
+3,2012,1,1,South,Baylor,South Dakota St,14
+7,2012,1,1,South,Notre Dame,Xavier,10
+2,2012,1,1,South,Duke,Lehigh,15
+1,2012,1,2,West,Michigan St,Long Island Brooklyn,16
+8,2012,1,2,West,Memphis,St Louis,9
+5,2012,1,2,West,New Mexico,Long Beach St,12
+4,2012,1,2,West,Louisville,Davidson,13
+6,2012,1,2,West,Murray St,Colorado St,11
+3,2012,1,2,West,Marquette,BYU,14
+7,2012,1,2,West,Florida,Virginia,10
+2,2012,1,2,West,Missouri,Norfolk St,15
+1,2012,1,3,East,Syracuse,UNC Asheville,16
+8,2012,1,3,East,Kansas St,Southern Mississippi,9
+5,2012,1,3,East,Vanderbilt,Harvard,12
+4,2012,1,3,East,Wisconsin,Montana,13
+6,2012,1,3,East,Cincinnati,Texas,11
+3,2012,1,3,East,Florida St,St Bonaventure,14
+7,2012,1,3,East,Gonzaga,West Virginia,10
+2,2012,1,3,East,Ohio St,Loyola Maryland,15
+1,2012,1,4,Midwest,North Carolina,Vermont,16
+8,2012,1,4,Midwest,Creighton,Alabama,9
+5,2012,1,4,Midwest,Temple,South Florida,12
+4,2012,1,4,Midwest,Michigan,Ohio,13
+6,2012,1,4,Midwest,San Diego St,NC State,11
+3,2012,1,4,Midwest,Georgetown,Belmont,14
+7,2012,1,4,Midwest,St Marys,Purdue,10
+2,2012,1,4,Midwest,Kansas,Detroit,15
