@@ -57,7 +57,7 @@
     {
         "Round": 1,
         "Matchup": "Washington vs Mississippi St",
-        "Winner": "Mississippi St"
+        "Winner": "Washington"
     },
     {
         "Round": 1,
@@ -72,7 +72,7 @@
     {
         "Round": 1,
         "Matchup": "California vs Maryland",
-        "Winner": "California"
+        "Winner": "Maryland"
     },
     {
         "Round": 1,
@@ -172,7 +172,7 @@
     {
         "Round": 2,
         "Matchup": "West Virginia vs Kansas",
-        "Winner": "Kansas"
+        "Winner": "West Virginia"
     },
     {
         "Round": 2,
@@ -186,17 +186,17 @@
     },
     {
         "Round": 2,
-        "Matchup": "Purdue vs Mississippi St",
-        "Winner": "Purdue"
+        "Matchup": "Purdue vs Washington",
+        "Winner": "Washington"
     },
     {
         "Round": 2,
         "Matchup": "Marquette vs Missouri",
-        "Winner": "Missouri"
+        "Winner": "Marquette"
     },
     {
         "Round": 2,
-        "Matchup": "California vs Memphis",
+        "Matchup": "Maryland vs Memphis",
         "Winner": "Memphis"
     },
     {
@@ -207,7 +207,7 @@
     {
         "Round": 2,
         "Matchup": "Florida St vs Xavier",
-        "Winner": "Florida St"
+        "Winner": "Xavier"
     },
     {
         "Round": 2,
@@ -246,22 +246,22 @@
     },
     {
         "Round": 3,
-        "Matchup": "Kansas vs Michigan St",
-        "Winner": "Kansas"
+        "Matchup": "West Virginia vs Michigan St",
+        "Winner": "Michigan St"
     },
     {
         "Round": 3,
-        "Matchup": "Connecticut vs Purdue",
+        "Matchup": "Connecticut vs Washington",
         "Winner": "Connecticut"
     },
     {
         "Round": 3,
-        "Matchup": "Missouri vs Memphis",
-        "Winner": "Missouri"
+        "Matchup": "Marquette vs Memphis",
+        "Winner": "Memphis"
     },
     {
         "Round": 3,
-        "Matchup": "Pittsburgh vs Florida St",
+        "Matchup": "Pittsburgh vs Xavier",
         "Winner": "Pittsburgh"
     },
     {
@@ -281,12 +281,12 @@
     },
     {
         "Round": 4,
-        "Matchup": "Louisville vs Kansas",
+        "Matchup": "Louisville vs Michigan St",
         "Winner": "Louisville"
     },
     {
         "Round": 4,
-        "Matchup": "Connecticut vs Missouri",
+        "Matchup": "Connecticut vs Memphis",
         "Winner": "Connecticut"
     },
     {
@@ -312,6 +312,6 @@
     {
         "Round": 6,
         "Matchup": "Louisville vs North Carolina",
-        "Winner": "Louisville"
+        "Winner": "North Carolina"
     }
 ]

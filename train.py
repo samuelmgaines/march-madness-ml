@@ -110,9 +110,9 @@ def add_team_stats(row):
         "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
         "Head_to_head": get_head_to_head(team1_stats, team2_stats, row["Team 1"], row["Team 2"]),
-        "Seed_diff": row["Seed 1"] - row["Seed 2"],
-        "Seed_high": max(row["Seed 1"], row["Seed 2"]),
-        "Seed_low": min(row["Seed 1"], row["Seed 2"]),
+        # "Seed_diff": row["Seed 1"] - row["Seed 2"],
+        # "Seed_high": max(row["Seed 1"], row["Seed 2"]),
+        # "Seed_low": min(row["Seed 1"], row["Seed 2"]),
         "Round": row["Round"],  # Keep round for reference
         "Winner": 1 if row["Score 1"] > row["Score 2"] else 0  # Label for ML model
     })
