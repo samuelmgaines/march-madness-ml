@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
 import time
 from sklearn.ensemble import RandomForestClassifier
+import random
 
 # Helper function to get srs score from string
 def get_srs(srs_str):
@@ -80,6 +81,11 @@ march_madness_df = march_madness_df[march_madness_df["Year"].apply(lambda x: x n
 # Add stats for each team
 def add_team_stats(row):
     year = row["Year"]
+
+    # Randomly swap team order
+    if random.random() < 0.5:
+        row[["Team 1", "Team 2", "Seed 1", "Seed 2", "Score 1", "Score 2"]] = row[["Team 2", "Team 1", "Seed 2", "Seed 1", "Score 2", "Score 1"]]
+
     team1_stats = load_team_stats(year, row["Team 1"])
     team2_stats = load_team_stats(year, row["Team 2"])
     

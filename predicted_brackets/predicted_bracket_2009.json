@@ -7,7 +7,7 @@
     {
         "Round": 1,
         "Matchup": "Ohio St vs Siena",
-        "Winner": "Ohio St"
+        "Winner": "Siena"
     },
     {
         "Round": 1,
@@ -32,7 +32,7 @@
     {
         "Round": 1,
         "Matchup": "Boston College vs USC",
-        "Winner": "Boston College"
+        "Winner": "USC"
     },
     {
         "Round": 1,
@@ -47,7 +47,7 @@
     {
         "Round": 1,
         "Matchup": "BYU vs Texas A&M",
-        "Winner": "Texas A&M"
+        "Winner": "BYU"
     },
     {
         "Round": 1,
@@ -57,7 +57,7 @@
     {
         "Round": 1,
         "Matchup": "Washington vs Mississippi St",
-        "Winner": "Washington"
+        "Winner": "Mississippi St"
     },
     {
         "Round": 1,
@@ -152,7 +152,7 @@
     {
         "Round": 1,
         "Matchup": "Clemson vs Michigan",
-        "Winner": "Michigan"
+        "Winner": "Clemson"
     },
     {
         "Round": 1,
@@ -161,7 +161,7 @@
     },
     {
         "Round": 2,
-        "Matchup": "Louisville vs Ohio St",
+        "Matchup": "Louisville vs Siena",
         "Winner": "Louisville"
     },
     {
@@ -172,22 +172,22 @@
     {
         "Round": 2,
         "Matchup": "West Virginia vs Kansas",
-        "Winner": "West Virginia"
+        "Winner": "Kansas"
     },
     {
         "Round": 2,
-        "Matchup": "Boston College vs Michigan St",
+        "Matchup": "USC vs Michigan St",
         "Winner": "Michigan St"
     },
     {
         "Round": 2,
-        "Matchup": "Connecticut vs Texas A&M",
+        "Matchup": "Connecticut vs BYU",
         "Winner": "Connecticut"
     },
     {
         "Round": 2,
-        "Matchup": "Purdue vs Washington",
-        "Winner": "Washington"
+        "Matchup": "Purdue vs Mississippi St",
+        "Winner": "Purdue"
     },
     {
         "Round": 2,
@@ -207,7 +207,7 @@
     {
         "Round": 2,
         "Matchup": "Florida St vs Xavier",
-        "Winner": "Xavier"
+        "Winner": "Florida St"
     },
     {
         "Round": 2,
@@ -236,8 +236,8 @@
     },
     {
         "Round": 2,
-        "Matchup": "Michigan vs Oklahoma",
-        "Winner": "Michigan"
+        "Matchup": "Clemson vs Oklahoma",
+        "Winner": "Oklahoma"
     },
     {
         "Round": 3,
@@ -246,12 +246,12 @@
     },
     {
         "Round": 3,
-        "Matchup": "West Virginia vs Michigan St",
-        "Winner": "West Virginia"
+        "Matchup": "Kansas vs Michigan St",
+        "Winner": "Kansas"
     },
     {
         "Round": 3,
-        "Matchup": "Connecticut vs Washington",
+        "Matchup": "Connecticut vs Purdue",
         "Winner": "Connecticut"
     },
     {
@@ -261,7 +261,7 @@
     },
     {
         "Round": 3,
-        "Matchup": "Pittsburgh vs Xavier",
+        "Matchup": "Pittsburgh vs Florida St",
         "Winner": "Pittsburgh"
     },
     {
@@ -276,12 +276,12 @@
     },
     {
         "Round": 3,
-        "Matchup": "Arizona St vs Michigan",
-        "Winner": "Arizona St"
+        "Matchup": "Arizona St vs Oklahoma",
+        "Winner": "Oklahoma"
     },
     {
         "Round": 4,
-        "Matchup": "Louisville vs West Virginia",
+        "Matchup": "Louisville vs Kansas",
         "Winner": "Louisville"
     },
     {
@@ -292,26 +292,26 @@
     {
         "Round": 4,
         "Matchup": "Pittsburgh vs Duke",
-        "Winner": "Duke"
+        "Winner": "Pittsburgh"
     },
     {
         "Round": 4,
-        "Matchup": "North Carolina vs Arizona St",
+        "Matchup": "North Carolina vs Oklahoma",
         "Winner": "North Carolina"
     },
     {
         "Round": 5,
         "Matchup": "Louisville vs Connecticut",
-        "Winner": "Connecticut"
+        "Winner": "Louisville"
     },
     {
         "Round": 5,
-        "Matchup": "Duke vs North Carolina",
+        "Matchup": "Pittsburgh vs North Carolina",
         "Winner": "North Carolina"
     },
     {
         "Round": 6,
-        "Matchup": "Connecticut vs North Carolina",
-        "Winner": "North Carolina"
+        "Matchup": "Louisville vs North Carolina",
+        "Winner": "Louisville"
     }
 ]
