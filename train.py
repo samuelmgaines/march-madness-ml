@@ -52,11 +52,19 @@ def load_team_stats(year, team_name):
     avg_points = sum(int(g["pts"]) for g in regular_season_games) / total_games
     avg_opp_points = sum(int(g["opp_pts"]) for g in regular_season_games) / total_games
     streak_score = 0
+    wins = []
+    for g in regular_season_games:
+        if g["game_result"] == "W":
+            wins.append(g["opp_name"])
     for i, g in enumerate(regular_season_games[-10:]):
         if g["game_result"] == "W":
             streak_score += (i + 1)/10 * get_srs(g.get("srs", "").strip())
 
-    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score}
+    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score, "Wins": wins}
+
+# Get head-to-head record
+def get_head_to_head(team1_stats, team2_stats, team1, team2):
+    return team1_stats["Wins"].count(team2) - team2_stats["Wins"].count(team1)
 
 print("Loading data...")
 start_time = time.time()
@@ -95,6 +103,7 @@ def add_team_stats(row):
         "Streak_high": max(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
+        "Head_to_head": get_head_to_head(team1_stats, team2_stats, row["Team 1"], row["Team 2"]),
         "Seed_diff": row["Seed 1"] - row["Seed 2"],
         "Seed_high": max(row["Seed 1"], row["Seed 2"]),
         "Seed_low": min(row["Seed 1"], row["Seed 2"]),

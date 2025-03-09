@@ -55,8 +55,16 @@ def load_team_stats(year, team_name):
     for i, g in enumerate(regular_season_games[-10:]):
         if g["game_result"] == "W":
             streak_score += (i + 1)/10 * get_srs(g.get("srs", "").strip())
+    wins = []
+    for g in regular_season_games:
+        if g["game_result"] == "W":
+            wins.append(g["opp_name"])
 
-    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score}
+    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score, "Wins": wins}
+
+# Get head-to-head record
+def get_head_to_head(team1_stats, team2_stats, team1, team2):
+    return team1_stats["Wins"].count(team2) - team2_stats["Wins"].count(team1)
 
 # Load first-round matchups (assume this is from a CSV or pre-defined dataset)
 def load_first_round(year):
@@ -89,6 +97,7 @@ def predict_winner(team1, team2, seed1, seed2, year, round, model):
         "Streak_high": max(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
+        "Head_to_head": get_head_to_head(team1_stats, team2_stats, team1, team2),
         "Seed_diff": seed1 - seed2,
         "Seed_high": max(seed1, seed2),
         "Seed_low": min(seed1, seed2),

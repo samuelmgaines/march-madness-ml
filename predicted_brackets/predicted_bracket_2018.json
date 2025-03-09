@@ -172,7 +172,7 @@
     {
         "Round": 2,
         "Matchup": "Miami vs Tennessee",
-        "Winner": "Tennessee"
+        "Winner": "Miami"
     },
     {
         "Round": 2,
@@ -212,7 +212,7 @@
     {
         "Round": 2,
         "Matchup": "Florida vs Texas Tech",
-        "Winner": "Florida"
+        "Winner": "Texas Tech"
     },
     {
         "Round": 2,
@@ -246,8 +246,8 @@
     },
     {
         "Round": 3,
-        "Matchup": "Tennessee vs Cincinnati",
-        "Winner": "Tennessee"
+        "Matchup": "Miami vs Cincinnati",
+        "Winner": "Miami"
     },
     {
         "Round": 3,
@@ -266,8 +266,8 @@
     },
     {
         "Round": 3,
-        "Matchup": "Florida vs Purdue",
-        "Winner": "Florida"
+        "Matchup": "Texas Tech vs Purdue",
+        "Winner": "Texas Tech"
     },
     {
         "Round": 3,
@@ -281,7 +281,7 @@
     },
     {
         "Round": 4,
-        "Matchup": "Virginia vs Tennessee",
+        "Matchup": "Virginia vs Miami",
         "Winner": "Virginia"
     },
     {
@@ -291,8 +291,8 @@
     },
     {
         "Round": 4,
-        "Matchup": "West Virginia vs Florida",
-        "Winner": "Florida"
+        "Matchup": "West Virginia vs Texas Tech",
+        "Winner": "West Virginia"
     },
     {
         "Round": 4,
@@ -306,12 +306,12 @@
     },
     {
         "Round": 5,
-        "Matchup": "Florida vs Michigan St",
-        "Winner": "Florida"
+        "Matchup": "West Virginia vs Michigan St",
+        "Winner": "West Virginia"
     },
     {
         "Round": 6,
-        "Matchup": "Virginia vs Florida",
+        "Matchup": "Virginia vs West Virginia",
         "Winner": "Virginia"
     }
 ]

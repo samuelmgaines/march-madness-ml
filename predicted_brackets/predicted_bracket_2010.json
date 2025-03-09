@@ -132,7 +132,7 @@
     {
         "Round": 1,
         "Matchup": "Texas A&M vs Utah St",
-        "Winner": "Utah St"
+        "Winner": "Texas A&M"
     },
     {
         "Round": 1,
@@ -167,12 +167,12 @@
     {
         "Round": 2,
         "Matchup": "Michigan St vs Maryland",
-        "Winner": "Maryland"
+        "Winner": "Michigan St"
     },
     {
         "Round": 2,
         "Matchup": "Tennessee vs Georgetown",
-        "Winner": "Tennessee"
+        "Winner": "Georgetown"
     },
     {
         "Round": 2,
@@ -226,8 +226,8 @@
     },
     {
         "Round": 2,
-        "Matchup": "Utah St vs Purdue",
-        "Winner": "Purdue"
+        "Matchup": "Texas A&M vs Purdue",
+        "Winner": "Texas A&M"
     },
     {
         "Round": 2,
@@ -241,12 +241,12 @@
     },
     {
         "Round": 3,
-        "Matchup": "Kansas vs Maryland",
-        "Winner": "Maryland"
+        "Matchup": "Kansas vs Michigan St",
+        "Winner": "Kansas"
     },
     {
         "Round": 3,
-        "Matchup": "Tennessee vs Ohio St",
+        "Matchup": "Georgetown vs Ohio St",
         "Winner": "Ohio St"
     },
     {
@@ -257,7 +257,7 @@
     {
         "Round": 3,
         "Matchup": "Minnesota vs BYU",
-        "Winner": "BYU"
+        "Winner": "Minnesota"
     },
     {
         "Round": 3,
@@ -267,11 +267,11 @@
     {
         "Round": 3,
         "Matchup": "Marquette vs West Virginia",
-        "Winner": "Marquette"
+        "Winner": "West Virginia"
     },
     {
         "Round": 3,
-        "Matchup": "Duke vs Purdue",
+        "Matchup": "Duke vs Texas A&M",
         "Winner": "Duke"
     },
     {
@@ -281,17 +281,17 @@
     },
     {
         "Round": 4,
-        "Matchup": "Maryland vs Ohio St",
-        "Winner": "Ohio St"
+        "Matchup": "Kansas vs Ohio St",
+        "Winner": "Kansas"
     },
     {
         "Round": 4,
-        "Matchup": "Vanderbilt vs BYU",
-        "Winner": "Vanderbilt"
+        "Matchup": "Vanderbilt vs Minnesota",
+        "Winner": "Minnesota"
     },
     {
         "Round": 4,
-        "Matchup": "Kentucky vs Marquette",
+        "Matchup": "Kentucky vs West Virginia",
         "Winner": "Kentucky"
     },
     {
@@ -301,8 +301,8 @@
     },
     {
         "Round": 5,
-        "Matchup": "Ohio St vs Vanderbilt",
-        "Winner": "Vanderbilt"
+        "Matchup": "Kansas vs Minnesota",
+        "Winner": "Kansas"
     },
     {
         "Round": 5,
@@ -311,7 +311,7 @@
     },
     {
         "Round": 6,
-        "Matchup": "Vanderbilt vs Duke",
-        "Winner": "Duke"
+        "Matchup": "Kansas vs Duke",
+        "Winner": "Kansas"
     }
 ]
