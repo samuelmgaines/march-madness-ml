@@ -37,7 +37,7 @@ def parse_html_table(table):
     return games
 
 # configure file paths
-mm_results_path = '../data/mm-results.csv'
+mm_results_path = '../data/first_rounds/2025_firsts.csv'
 sports_reference_names_path = 'sports-reference-names.json'
 errors_path = 'errors'
 error_list_filename = 'error-list.txt'
