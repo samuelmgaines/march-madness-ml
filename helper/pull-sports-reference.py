@@ -37,7 +37,7 @@ def parse_html_table(table):
     return games
 
 # configure file paths
-mm_results_path = '../data/first_rounds/2025_firsts.csv'
+mm_results_path = '../data/mm-results.csv' # if wanted year is not in mm-results, use first_rounds/<year>_firsts.csv
 sports_reference_names_path = 'sports-reference-names.json'
 errors_path = 'errors'
 error_list_filename = 'error-list.txt'
@@ -48,7 +48,7 @@ df = pd.read_csv(mm_results_path)
 with open(sports_reference_names_path) as f:
     sr_names = json.load(f)
 
-for year in range(2025, 2026):  # adjust the range for the years you want to scrape
+for year in range(1985, 2020):  # adjust the range for the years you want to scrape
     # get all March Madness teams for the year
     teams = set()
     games = df.loc[df['Year'] == year]
