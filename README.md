@@ -21,7 +21,7 @@ Make sure any years you wish to create a bracket for are present in the `data/fi
 
 ### Download Seasonal Stats
 
-Before training the model, seasonal data for each March Madness team must be scraped from SportsReference. To do this, run `helper/pull-sports-reference.py`. This will take a few hours since SportsReference has a rate-limiting policy. When the process is complete, data can be found in `data/yearly` with filename format `Year-Team.json`. Make sure the code is configured to download all years you wish to train or make a prediction on.
+Before training the model, seasonal data for each March Madness team must be scraped from SportsReference. To do this, run `helper/pull-sports-reference.py`. This will take a few hours since SportsReference has a rate-limiting policy. When the process is complete, data can be found in `data/yearly` with filename format `Year-Team.json`. Make sure the code is configured to download all years you wish to train or make a prediction on. The variable `mm_results_path` can be set to point to a `first_rounds` file if a desired year is not present in `mm-results.csv`.
 
 A list of any errors from the load can be found in `helper/errors/error-list.txt`. Each line in this file represents an error and has the format `Year,Team,Error code`. The full error response for each request can be found in `helper/errors/Year-Team.html`.
 
