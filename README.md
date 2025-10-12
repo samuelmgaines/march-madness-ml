@@ -13,11 +13,11 @@ Data from previous March Madness tournaments (1985 - 2019) comes from [here](htt
 
 Team stats from each season are pulled from [SportsReference](https://www.sports-reference.com/cbb). This data is not in the repository by default. Download instructions are found in Set Up.
 
-## Set Up
+## Usage
 
 ### Download Seasonal Stats
 
-Before training the model, seasonal data for each March Madness team must be scraped from SportsReference. To do this, run `helper/pull-sports-reference.py`. This will take a few hours since SportsReference has a rate-limiting policy. When the process is complete, data can be found in `data/yearly` with filename format `Year-Team.json`.
+Before training the model, seasonal data for each March Madness team must be scraped from SportsReference. To do this, run `helper/pull-sports-reference.py`. This will take a few hours since SportsReference has a rate-limiting policy. When the process is complete, data can be found in `data/yearly` with filename format `Year-Team.json`. Make sure the code is configured to download all years you wish to train or make a prediction on.
 
 A list of any errors from the load can be found in `helper/errors/error-list.txt`. Each line in this file represents an error and has the format `Year,Team,Error code`. The full error response for each request can be found in `helper/errors/Year-Team.html`.
 
@@ -32,3 +32,23 @@ An error code of `Error parsing table` signifies that the table could not be par
 Any other error codes will also require further troubleshooting.
 
 Once all errors are addressed, delete all files from the `helper/errors` directory (except `error-list.txt`). Then, run `helper/pull-sports-reference-errors.py` to pull data from the seasons specified in `error-list.txt`. If there are any more errors, repeat the troubleshooting process.
+
+### Create bracket
+
+Make sure any years you wish to create a bracket for are present in the `data/first_rounds` folder. If any are not present, they will likely need to be manually created. _Order of the games matters!_
+
+### Train the Model
+
+After downloading all the seasonal stats, train the model by running `train.py`. Make sure the code is configured to train on the years you wish to train on. This creates the model and stores it in `march_madness_model.pkl`.
+
+### View the Model
+
+After creating the model, you can view how it weighs different factors by running `view_model.py`.
+
+### Fill out a Bracket
+
+After creating the model, fill out brackets by running `test.py`. Make sure the code is configured to run on the years you wish to create a bracket for. Predictions will be placed in the `predicted_brackets` folder.
+
+### Evaluate the Model
+
+After filling out brackets, evaluate the predictions by running `evaluate.py`. This will only work if results for predicted years are present in `data/mm-results.csv`.
