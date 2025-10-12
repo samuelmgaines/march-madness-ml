@@ -3,6 +3,7 @@
 ## Project Description
 
 In this personal project, I train a machine learning model to make men's March Madness predictions based on historical data from past college basketball seasons.
+
 ## Data
 
 ### March Madness History
@@ -52,3 +53,7 @@ After creating the model, fill out brackets by running `test.py`. Make sure the 
 ### Evaluate the Model
 
 After filling out brackets, evaluate the predictions by running `evaluate.py`. This will only work if results for predicted years are present in `data/mm-results.csv`.
+
+## Results
+
+The model created a 2025 prediction that can be found in the `archive` folder. The algorithm's results were submitted in the ESPN Tournament Challenge, and can be viewed [here](https://fantasy.espn.com/games/tournament-challenge-bracket-2025/bracket?id=f7758260-02f2-11f0-bf6c-6defe417cf10). The algorithm's bracket scored 880 points, placing it in the 48.5 percentile across all 2025 brackets. Unfortunately, the algorithm selected 2-seed St. John's to win it all, who was ultimately eliminated in the second round of the tournament by 10-seed Arkansas.
