@@ -1,9 +1,8 @@
-# March Madness ML Algorithm (In Development)
+# March Madness ML Algorithm
 
 ## Project Description
 
-In this personal project, I train a machine learning model to make men's March Madness predictions based on historical data from past college basketball seasons. Development is currently in progress.
-
+In this personal project, I train a machine learning model to make men's March Madness predictions based on historical data from past college basketball seasons.
 ## Data
 
 ### March Madness History
