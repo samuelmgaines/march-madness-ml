@@ -3,7 +3,7 @@ Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
 8,2025,1,1,South,Louisville,Creighton,9
 5,2025,1,1,South,Michigan,UC San Diego,12
 4,2025,1,1,South,Texas A&M,Yale,13
-6,2025,1,1,South,Ole Miss,San Diego St,11
+6,2025,1,1,South,Ole Miss,North Carolina,11
 3,2025,1,1,South,Iowa St,Lipscomb,14
 7,2025,1,1,South,Marquette,New Mexico,10
 2,2025,1,1,South,Michigan St,Bryant,15
@@ -27,9 +27,7 @@ Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
 8,2025,1,4,Midwest,Gonzaga,Georgia,9
 5,2025,1,4,Midwest,Clemson,McNeese St,12
 4,2025,1,4,Midwest,Purdue,High Point,13
-6,2025,1,4,Midwest,Illinois,Texas,11
+6,2025,1,4,Midwest,Illinois,Xavier,11
 3,2025,1,4,Midwest,Kentucky,Troy,14
 7,2025,1,4,Midwest,UCLA,Utah St,10
 2,2025,1,4,Midwest,Tennessee,Wofford,15
-1,2025,2,1,South,St Francis,North Carolina,
-8,2025,2,1,South,Mount St Marys,Xavier,9

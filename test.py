@@ -49,7 +49,10 @@ def load_team_stats(year, team_name):
     
     srs_avg = sum(srs_values) / len(srs_values)
     win_percentage = sum(1 for g in regular_season_games if g["game_result"] == "W") / total_games
-    avg_points = sum(int(g["pts"]) for g in regular_season_games) / total_games
+    try:
+        avg_points = sum(int(g["pts"]) for g in regular_season_games) / total_games
+    except ValueError:
+        print("Error calculating average points for team {}".format(team_name))
     avg_opp_points = sum(int(g["opp_pts"]) for g in regular_season_games) / total_games
     streak_score = 0
     for i, g in enumerate(regular_season_games[-10:]):
@@ -138,5 +141,5 @@ def simulate_bracket(year, model, output_file="predicted_bracket.json"):
     print(f"Bracket saved to {output_file}")
 
 # Run bracket simulation
-for year in [2009, 2010, 2018, 2019]:
+for year in [2025]:
     simulate_bracket(year, model, output_file="predicted_brackets/predicted_bracket_{}.json".format(year))
