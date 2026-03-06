@@ -1,5 +1,5 @@
 .env
-data/yearly
-data/yearly/*
+data/men/yearly/*
+data/women/yearly/*
 backup-data
 backup-data/*

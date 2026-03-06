@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2025,1,1,East,Duke,Mount St Marys,16
+8,2025,1,1,East,Mississippi St,Baylor,9
+5,2025,1,1,East,Oregon,Liberty,12
+4,2025,1,1,East,Arizona,Akron,13
+6,2025,1,1,East,BYU,VCU,11
+3,2025,1,1,East,Wisconsin,Montana,14
+7,2025,1,1,East,St Marys,Vanderbilt,10
+2,2025,1,1,East,Alabama,Robert Morris,15
+1,2025,1,2,Midwest,Houston,SIU Edwardsville,16
+8,2025,1,2,Midwest,Gonzaga,Georgia,9
+5,2025,1,2,Midwest,Clemson,McNeese St,12
+4,2025,1,2,Midwest,Purdue,High Point,13
+6,2025,1,2,Midwest,Illinois,Xavier,11
+3,2025,1,2,Midwest,Kentucky,Troy,14
+7,2025,1,2,Midwest,UCLA,Utah St,10
+2,2025,1,2,Midwest,Tennessee,Wofford,15
+1,2025,1,3,South,Auburn,Alabama St,16
+8,2025,1,3,South,Louisville,Creighton,9
+5,2025,1,3,South,Michigan,UC San Diego,12
+4,2025,1,3,South,Texas A&M,Yale,13
+6,2025,1,3,South,Ole Miss,North Carolina,11
+3,2025,1,3,South,Iowa St,Lipscomb,14
+7,2025,1,3,South,Marquette,New Mexico,10
+2,2025,1,3,South,Michigan St,Bryant,15
+1,2025,1,4,West,Florida,Norfolk St,16
+8,2025,1,4,West,Connecticut,Oklahoma,9
+5,2025,1,4,West,Memphis,Colorado St,12
+4,2025,1,4,West,Maryland,Grand Canyon,13
+6,2025,1,4,West,Missouri,Drake,11
+3,2025,1,4,West,Texas Tech,UNC Wilmington,14
+7,2025,1,4,West,Kansas,Arkansas,10
+2,2025,1,4,West,St Johns,Omaha,15

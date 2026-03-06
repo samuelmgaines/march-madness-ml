@@ -1,10 +1,11 @@
 import pandas as pd
 
-# Load actual results
-actual_results = pd.read_csv("data/mm-results.csv")
-
-# Filter for the evaluation years
+LEAGUE = "men"
+# LEAGUE = "women"
 eval_years = [2009, 2010, 2018, 2019]
+
+# Load actual results
+actual_results = pd.read_csv(f"data/{LEAGUE}/mm-results.csv")
 
 def get_actual_winners(games):
     winners = set()
@@ -18,7 +19,7 @@ def get_actual_winners(games):
 for year in eval_years:
     num_correct_predictions_total = 0
     # Load predicted bracket
-    predicted_results = pd.read_json(f"predicted_brackets/predicted_bracket_{year}.json")
+    predicted_results = pd.read_json(f"predicted_brackets/{LEAGUE}/predicted_bracket_{year}.json")
 
     for round in range(1, 7):
         # Get actual results for this round

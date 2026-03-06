@@ -2,8 +2,12 @@ import joblib
 import json
 import pandas as pd
 
+LEAGUE = "men"
+# LEAGUE = "women"
+prediction_years = [2025]  # Adjust this list to include the years you want to predict
+
 # Load the trained model
-model = joblib.load("march_madness_model.pkl")
+model = joblib.load(f"models/{LEAGUE}/march_madness_model.pkl")
 
 import os
 import logging
@@ -19,7 +23,7 @@ def get_srs(srs_str):
 
 # Extract team level stats
 def load_team_stats(year, team_name):
-    file_path = f"data/yearly/{year}-{team_name}.json"
+    file_path = f"data/{LEAGUE}/yearly/{year}-{team_name}.json"
     if not os.path.exists(file_path):
         logging.error(f"File not found: {file_path}")
         return None
@@ -141,5 +145,5 @@ def simulate_bracket(year, model, output_file="predicted_bracket.json"):
     print(f"Bracket saved to {output_file}")
 
 # Run bracket simulation
-for year in [2025]:
-    simulate_bracket(year, model, output_file="predicted_brackets/predicted_bracket_{}.json".format(year))
+for year in prediction_years:
+    simulate_bracket(year, model, output_file=f"predicted_brackets/{LEAGUE}/predicted_bracket_{year}.json")

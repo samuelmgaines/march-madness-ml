@@ -5,6 +5,9 @@ import pandas as pd
 import requests
 import time
 
+LEAGUE = "men"
+# LEAGUE = "women"
+
 logging.getLogger().setLevel(logging.INFO) # toggle logging level
 
 # helper function to parse HTML table
@@ -37,11 +40,11 @@ def parse_html_table(table):
     return games
 
 # configure file paths
-mm_results_path = '../data/first_rounds/2025_firsts.csv'
+mm_results_path = f'../data/{LEAGUE}/first_rounds/2025_firsts.csv'
 sports_reference_names_path = 'sports-reference-names.json'
 errors_path = 'errors'
 error_list_filename = 'error-list.txt'
-data_yearly_path = '../data/yearly'
+data_yearly_path = f'../data/{LEAGUE}/yearly'
 
 df = pd.read_csv(mm_results_path)
 
@@ -63,7 +66,7 @@ for error in error_list:
 
     # make HTTP request to Sports Reference
     sr_team = sr_names[team]
-    schedule_response = requests.get(f"https://www.sports-reference.com/cbb/schools/{sr_team}/men/{year}-schedule.html")
+    schedule_response = requests.get(f"https://www.sports-reference.com/cbb/schools/{sr_team}/{LEAGUE}/{year}-schedule.html")
 
     # handle error status code
     if schedule_response.status_code != 200:

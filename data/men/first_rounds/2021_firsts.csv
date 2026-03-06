@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2021,1,1,East,Michigan,Texas Southern,16
+8,2021,1,1,East,LSU,St Bonaventure,9
+5,2021,1,1,East,Colorado,Georgetown,12
+4,2021,1,1,East,Florida St,UNC Greensboro,13
+6,2021,1,1,East,BYU,UCLA,11
+3,2021,1,1,East,Texas,Abilene Christian,14
+7,2021,1,1,East,Connecticut,Maryland,10
+2,2021,1,1,East,Alabama,Iona,15
+1,2021,1,2,Midwest,Illinois,Drexel,16
+8,2021,1,2,Midwest,Loyola Chicago,Georgia Tech,9
+5,2021,1,2,Midwest,Tennessee,Oregon St,12
+4,2021,1,2,Midwest,Oklahoma St,Liberty,13
+6,2021,1,2,Midwest,San Diego St,Syracuse,11
+3,2021,1,2,Midwest,West Virginia,Morehead St,14
+7,2021,1,2,Midwest,Clemson,Rutgers,10
+2,2021,1,2,Midwest,Houston,Cleveland St,15
+1,2021,1,3,South,Baylor,Hartford,16
+8,2021,1,3,South,North Carolina,Wisconsin,9
+5,2021,1,3,South,Villanova,Winthrop,12
+4,2021,1,3,South,Purdue,North Texas,13
+6,2021,1,3,South,Texas Tech,Utah St,11
+3,2021,1,3,South,Arkansas,Colgate,14
+7,2021,1,3,South,Florida,Virginia Tech,10
+2,2021,1,3,South,Ohio St,Oral Roberts,15
+1,2021,1,4,West,Gonzaga,Norfolk St,16
+8,2021,1,4,West,Oklahoma,Missouri,9
+5,2021,1,4,West,Creighton,Santa Barbara,12
+4,2021,1,4,West,Virginia,Ohio,13
+6,2021,1,4,West,USC,Drake,11
+3,2021,1,4,West,Kansas,Eastern Washington,14
+7,2021,1,4,West,Oregon,VCU,10
+2,2021,1,4,West,Iowa,Grand Canyon,15

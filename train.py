@@ -9,6 +9,10 @@ import time
 from sklearn.ensemble import RandomForestClassifier
 import random
 
+LEAGUE = "men"
+# LEAGUE = "women"
+excluded_years = {2021}  # Exclude years to test later (don't train on them)
+
 # Helper function to get srs score from string
 def get_srs(srs_str):
     if srs_str:  # Ensure it's not empty
@@ -20,7 +24,7 @@ def get_srs(srs_str):
 
 # Extract team level stats
 def load_team_stats(year, team_name):
-    file_path = f"data/yearly/{year}-{team_name}.json"
+    file_path = f"data/{LEAGUE}/yearly/{year}-{team_name}.json"
     if not os.path.exists(file_path):
         logging.error(f"File not found: {file_path}")
         return None
@@ -71,8 +75,7 @@ print("Loading data...")
 start_time = time.time()
 
 # Merge team stats with March Madness data
-march_madness_df = pd.read_csv("data/mm-results.csv")
-excluded_years = []  # Exclude years to run brackets on later
+march_madness_df = pd.read_csv(f"data/{LEAGUE}/mm-results.csv")
 
 # Apply the condition to filter rows
 march_madness_df = march_madness_df[march_madness_df["Year"].apply(lambda x: x not in excluded_years)]
@@ -145,7 +148,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 import joblib
 
 # Save the model
-joblib.dump(model, "march_madness_model.pkl")
+joblib.dump(model, f"models/{LEAGUE}/march_madness_model.pkl")
 
 # Load the model later
-# model = joblib.load("march_madness_model.pkl")
+# model = joblib.load(f"models/{LEAGUE}/march_madness_model.pkl")

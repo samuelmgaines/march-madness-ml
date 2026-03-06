@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2008,1,1,East,North Carolina,Mount St Marys,16
+8,2008,1,1,East,Indiana,Arkansas,9
+5,2008,1,1,East,Notre Dame,George Mason,12
+4,2008,1,1,East,Washington St,Winthrop,13
+6,2008,1,1,East,Oklahoma,St Josephs,11
+3,2008,1,1,East,Louisville,Boise St,14
+7,2008,1,1,East,Butler,South Alabama,10
+2,2008,1,1,East,Tennessee,American,15
+1,2008,1,2,Midwest,Kansas,Portland St,16
+8,2008,1,2,Midwest,UNLV,Kent St,9
+5,2008,1,2,Midwest,Clemson,Villanova,12
+4,2008,1,2,Midwest,Vanderbilt,Siena,13
+6,2008,1,2,Midwest,USC,Kansas St,11
+3,2008,1,2,Midwest,Wisconsin,Cal St Fullerton,14
+7,2008,1,2,Midwest,Gonzaga,Davidson,10
+2,2008,1,2,Midwest,Georgetown,UMBC,15
+1,2008,1,3,South,Memphis,Texas Arlington,16
+8,2008,1,3,South,Mississippi St,Oregon,9
+5,2008,1,3,South,Michigan St,Temple,12
+4,2008,1,3,South,Pittsburgh,Oral Roberts,13
+6,2008,1,3,South,Marquette,Kentucky,11
+3,2008,1,3,South,Stanford,Cornell,14
+7,2008,1,3,South,Miami,St Marys,10
+2,2008,1,3,South,Texas,Austin Peay,15
+1,2008,1,4,West,UCLA,Mississippi Valley St,16
+8,2008,1,4,West,BYU,Texas A&M,9
+5,2008,1,4,West,Drake,Western Kentucky,12
+4,2008,1,4,West,Connecticut,San Diego,13
+6,2008,1,4,West,Purdue,Baylor,11
+3,2008,1,4,West,Xavier,Georgia,14
+7,2008,1,4,West,West Virginia,Arizona,10
+2,2008,1,4,West,Duke,Belmont,15

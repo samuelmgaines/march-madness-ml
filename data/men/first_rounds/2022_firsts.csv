@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2022,1,1,East,Baylor,Norfolk St,16
+8,2022,1,1,East,North Carolina,Marquette,9
+5,2022,1,1,East,St Marys,Indiana,12
+4,2022,1,1,East,UCLA,Akron,13
+6,2022,1,1,East,Texas,Virginia Tech,11
+3,2022,1,1,East,Purdue,Yale,14
+7,2022,1,1,East,Murray St,San Francisco,10
+2,2022,1,1,East,Kentucky,St Peters,15
+1,2022,1,2,Midwest,Kansas,Texas Southern,16
+8,2022,1,2,Midwest,San Diego St,Creighton,9
+5,2022,1,2,Midwest,Iowa,Richmond,12
+4,2022,1,2,Midwest,Providence,South Dakota St,13
+6,2022,1,2,Midwest,LSU,Iowa St,11
+3,2022,1,2,Midwest,Wisconsin,Colgate,14
+7,2022,1,2,Midwest,USC,Miami,10
+2,2022,1,2,Midwest,Auburn,Jacksonville St,15
+1,2022,1,3,South,Arizona,Wright St,16
+8,2022,1,3,South,Seton Hall,TCU,9
+5,2022,1,3,South,Houston,UAB,12
+4,2022,1,3,South,Illinois,Chattanooga,13
+6,2022,1,3,South,Colorado St,Michigan,11
+3,2022,1,3,South,Tennessee,Longwood,14
+7,2022,1,3,South,Ohio St,Loyola Chicago,10
+2,2022,1,3,South,Villanova,Delaware,15
+1,2022,1,4,West,Gonzaga,Georgia St,16
+8,2022,1,4,West,Boise St,Memphis,9
+5,2022,1,4,West,Connecticut,New Mexico St,12
+4,2022,1,4,West,Arkansas,Vermont,13
+6,2022,1,4,West,Alabama,Notre Dame,11
+3,2022,1,4,West,Texas Tech,Montana St,14
+7,2022,1,4,West,Michigan St,Davidson,10
+2,2022,1,4,West,Duke,Cal St Fullerton,15

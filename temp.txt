@@ -1,0 +1,186 @@
+Akron
+Alabama State
+Alabama
+Albany (NY)
+Alcorn State
+Appalachian State
+Arizona State
+Arizona
+Arkansas State
+Arkansas
+Arkansas-Pine Bluff
+Auburn
+Ball State
+Baylor
+Boise State
+BYU
+Cal State Bakersfield
+Cal State Fullerton
+Cal State Northridge
+Central Connecticut
+Chattanooga
+Clemson
+Cleveland State
+Colgate
+College of Charleston
+Colorado State
+Colorado
+Coppin State
+Creighton
+Davidson
+Dayton
+Delaware State
+Delaware
+Detroit Mercy
+Drake
+Duke
+Duquesne
+ETSU
+FDU
+Florida Atlantic
+Florida State
+Florida
+Fresno State
+Furman
+Gardner-Webb
+Georgia State
+Gonzaga
+Grambling
+Grand Canyon
+Green Bay
+Houston
+Howard
+Idaho State
+Illinois State
+Illinois
+Indiana State
+Indiana
+Iona
+Iowa State
+Iowa
+IU Indianapolis
+Jackson State
+Jacksonville State
+James Madison
+Kansas State
+Kansas
+Kennesaw State
+Kent State
+Kentucky
+Little Rock
+LIU
+Long Beach State
+Longwood
+Louisiana
+Louisiana-Monroe
+Loyola (IL)
+Loyola (MD)
+LSU
+Marquette
+Maryland
+McNeese State
+Memphis
+Miami (FL)
+Miami (OH)
+Michigan State
+Michigan
+Middle Tennessee
+Milwaukee
+Mississippi State
+Mississippi Valley State
+Missouri State
+Missouri
+Montana State
+Morehead State
+Morgan State
+Mount St. Mary's
+Murray State
+NC State
+Nebraska
+Nevada
+New Mexico State
+New Mexico
+Nicholls State
+Norfolk State
+North Dakota State
+North Texas
+Northern Kentucky
+Northwestern State
+Northwestern
+Notre Dame
+Oakland
+Ohio State
+Oklahoma State
+Oral Roberts
+Oregon State
+Oregon
+Penn State
+Penn
+Pitt
+Portland State
+Princeton
+Providence
+Purdue
+Richmond
+Saint Francis (PA)
+Saint Louis
+Saint Mary's
+Sam Houston
+Samford
+San Diego State
+San Francisco
+San Jose State
+Seton Hall
+SIU-Edwardsville
+South Carolina State
+South Carolina
+South Dakota State
+Southeast Missouri State
+Southern Miss
+St. Bonaventure
+St. John's (NY)
+St. John's (NY)
+St. Joseph's
+St. Peter's
+Stephen F. Austin
+Stetson
+TCU
+Tennessee State
+Tennessee
+Texas A&M
+Texas A&M-Corpus Christi
+Texas Southern
+Texas State
+Texas Tech
+Texas
+UAB
+UC-Davis
+UCF
+UC-Irvine
+UCLA
+UConn
+UC-San Diego
+UCSB
+UIC
+UMass
+UNC Asheville
+UNC
+USC
+UT Arlington
+Utah State
+UTSA
+VCU
+Vermont
+Villanova
+Virginia Tech
+Virginia
+Wagner
+Washington State
+Weber State
+West Virginia
+Western Kentucky
+Wichita State
+Wisconsin
+Wright State
+Xavier
+Yale

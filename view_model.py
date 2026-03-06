@@ -2,8 +2,11 @@ import pickle
 import xgboost as xgb
 import numpy as np
 
+LEAGUE = "men"
+# LEAGUE = "women"
+
 # Load the XGBoost model
-with open("march_madness_model.pkl", "rb") as f:
+with open(f"models/{LEAGUE}/march_madness_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 feature_names = model.get_booster().feature_names
