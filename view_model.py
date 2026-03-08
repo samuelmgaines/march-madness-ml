@@ -20,7 +20,7 @@ for idx in sorted_idx:
 
 print()
 
-d = {"streak": 0, "win_percentage": 0, "srs": 0, "ppg": 0, "opp_ppg": 0, "head_to_head": 0, "round": 0}
+d = {"streak": 0, "win_percentage": 0, "srs": 0, "ppg": 0, "opp_ppg": 0, "round": 0, "year": 0}
 for idx in sorted_idx:
     if feature_names[idx] == "Streak_diff" or feature_names[idx] == "Streak_high" or feature_names[idx] == "Streak_low":
         d["streak"] += importances[idx]
@@ -32,9 +32,11 @@ for idx in sorted_idx:
         d["ppg"] += importances[idx]
     elif feature_names[idx] == "Opp_ppg_diff" or feature_names[idx] == "Opp_ppg_high" or feature_names[idx] == "Opp_ppg_low":
         d["opp_ppg"] += importances[idx]
-    elif feature_names[idx] == "Head_to_head":
-        d["head_to_head"] = importances[idx]
+    # elif feature_names[idx] == "Head_to_head":
+    #     d["head_to_head"] = importances[idx]
     elif feature_names[idx] == "Round":
         d["round"] = importances[idx]
+    elif feature_names[idx] == "Year":
+        d["year"] = importances[idx]
 for k, v in sorted(d.items(), key=lambda x: x[1], reverse=True):
     print(f"{k}: {v}")

@@ -2,7 +2,7 @@ import pandas as pd
 
 LEAGUE = "men"
 # LEAGUE = "women"
-eval_years = [2009, 2010, 2018, 2019]
+eval_years = [2025]
 
 # Load actual results
 actual_results = pd.read_csv(f"data/{LEAGUE}/mm-results.csv")

@@ -104,11 +104,12 @@ def predict_winner(team1, team2, seed1, seed2, year, round, model):
         "Streak_high": max(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
-        "Head_to_head": get_head_to_head(team1_stats, team2_stats, team1, team2),
+        # "Head_to_head": get_head_to_head(team1_stats, team2_stats, team1, team2),
         # "Seed_diff": seed1 - seed2,
         # "Seed_high": max(seed1, seed2),
         # "Seed_low": min(seed1, seed2),
-        "Round": round
+        "Round": round,
+        "Year": year
     }])
 
     return team1 if model.predict(features)[0] == 1 else team2
