@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2003,1,1,East,Oklahoma,South Carolina St,16
+8,2003,1,1,East,California,NC State,9
+5,2003,1,1,East,Mississippi St,Butler,12
+4,2003,1,1,East,Louisville,Austin Peay,13
+6,2003,1,1,East,Oklahoma St,Pennsylvania,11
+3,2003,1,1,East,Syracuse,Manhattan,14
+7,2003,1,1,East,St Josephs,Auburn,10
+2,2003,1,1,East,Wake Forest,East Tennessee St,15
+1,2003,1,2,Midwest,Kentucky,IUPUI,16
+8,2003,1,2,Midwest,Oregon,Utah,9
+5,2003,1,2,Midwest,Wisconsin,Weber St,12
+4,2003,1,2,Midwest,Dayton,Tulsa,13
+6,2003,1,2,Midwest,Missouri,Southern Illinois,11
+3,2003,1,2,Midwest,Marquette,Holy Cross,14
+7,2003,1,2,Midwest,Indiana,Alabama,10
+2,2003,1,2,Midwest,Pittsburgh,Wagner,15
+1,2003,1,3,South,Texas,UNC Asheville,16
+8,2003,1,3,South,LSU,Purdue,9
+5,2003,1,3,South,Connecticut,BYU,12
+4,2003,1,3,South,Stanford,San Diego,13
+6,2003,1,3,South,Maryland,UNC Wilmington,11
+3,2003,1,3,South,Xavier,Troy,14
+7,2003,1,3,South,Michigan St,Colorado,10
+2,2003,1,3,South,Florida,Sam Houston St,15
+1,2003,1,4,West,Arizona,Vermont,16
+8,2003,1,4,West,Cincinnati,Gonzaga,9
+5,2003,1,4,West,Notre Dame,Wisconsin Milwaukee,12
+4,2003,1,4,West,Illinois,Western Kentucky,13
+6,2003,1,4,West,Creighton,Central Michigan,11
+3,2003,1,4,West,Duke,Colorado St,14
+7,2003,1,4,West,Memphis,Arizona St,10
+2,2003,1,4,West,Kansas,Utah St,15

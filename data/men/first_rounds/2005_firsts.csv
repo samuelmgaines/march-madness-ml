@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2005,1,1,Albuquerque,Washington,Montana,16
+8,2005,1,1,Albuquerque,Pacific,Pittsburgh,9
+5,2005,1,1,Albuquerque,Georgia Tech,George Washington,12
+4,2005,1,1,Albuquerque,Louisville,Louisiana Lafayette,13
+6,2005,1,1,Albuquerque,Texas Tech,UCLA,11
+3,2005,1,1,Albuquerque,Gonzaga,Winthrop,14
+7,2005,1,1,Albuquerque,West Virginia,Creighton,10
+2,2005,1,1,Albuquerque,Wake Forest,Chattanooga,15
+1,2005,1,2,Austin,Duke,Delaware St,16
+8,2005,1,2,Austin,Stanford,Mississippi St,9
+5,2005,1,2,Austin,Michigan St,Old Dominion,12
+4,2005,1,2,Austin,Syracuse,Vermont,13
+6,2005,1,2,Austin,Utah,UTEP,11
+3,2005,1,2,Austin,Oklahoma,Niagara,14
+7,2005,1,2,Austin,Cincinnati,Iowa,10
+2,2005,1,2,Austin,Kentucky,Eastern Kentucky,15
+1,2005,1,3,Chicago,Illinois,Fairleigh Dickinson,16
+8,2005,1,3,Chicago,Texas,Nevada,9
+5,2005,1,3,Chicago,Alabama,Wisconsin Milwaukee,12
+4,2005,1,3,Chicago,Boston College,Pennsylvania,13
+6,2005,1,3,Chicago,LSU,UAB,11
+3,2005,1,3,Chicago,Arizona,Utah St,14
+7,2005,1,3,Chicago,Southern Illinois,St Marys,10
+2,2005,1,3,Chicago,Oklahoma St,Southeastern Louisiana,15
+1,2005,1,4,Syracuse,North Carolina,Oakland,16
+8,2005,1,4,Syracuse,Minnesota,Iowa St,9
+5,2005,1,4,Syracuse,Villanova,New Mexico,12
+4,2005,1,4,Syracuse,Florida,Ohio,13
+6,2005,1,4,Syracuse,Wisconsin,Northern Iowa,11
+3,2005,1,4,Syracuse,Kansas,Bucknell,14
+7,2005,1,4,Syracuse,Charlotte,NC State,10
+2,2005,1,4,Syracuse,Connecticut,Central Florida,15

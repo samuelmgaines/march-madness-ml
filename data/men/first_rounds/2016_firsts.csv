@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2016,1,1,East,North Carolina,Florida Gulf Coast,16
+8,2016,1,1,East,USC,Providence,9
+5,2016,1,1,East,Indiana,Chattanooga,12
+4,2016,1,1,East,Kentucky,Stony Brook,13
+6,2016,1,1,East,Notre Dame,Michigan,11
+3,2016,1,1,East,West Virginia,Stephen F Austin,14
+7,2016,1,1,East,Wisconsin,Pittsburgh,10
+2,2016,1,1,East,Xavier,Weber St,15
+1,2016,1,2,Midwest,Virginia,Hampton,16
+8,2016,1,2,Midwest,Texas Tech,Butler,9
+5,2016,1,2,Midwest,Purdue,Arkansas Little Rock,12
+4,2016,1,2,Midwest,Iowa St,Iona,13
+6,2016,1,2,Midwest,Seton Hall,Gonzaga,11
+3,2016,1,2,Midwest,Utah,Fresno St,14
+7,2016,1,2,Midwest,Dayton,Syracuse,10
+2,2016,1,2,Midwest,Michigan St,Middle Tennessee St,15
+1,2016,1,3,South,Kansas,Austin Peay,16
+8,2016,1,3,South,Colorado,Connecticut,9
+5,2016,1,3,South,Maryland,South Dakota St,12
+4,2016,1,3,South,California,Hawaii,13
+6,2016,1,3,South,Arizona,Wichita St,11
+3,2016,1,3,South,Miami,Buffalo,14
+7,2016,1,3,South,Iowa,Temple,10
+2,2016,1,3,South,Villanova,UNC Asheville,15
+1,2016,1,4,West,Oregon,Holy Cross,16
+8,2016,1,4,West,St Josephs,Cincinnati,9
+5,2016,1,4,West,Baylor,Yale,12
+4,2016,1,4,West,Duke,UNC Wilmington,13
+6,2016,1,4,West,Texas,Northern Iowa,11
+3,2016,1,4,West,Texas A&M,Wisconsin Green Bay,14
+7,2016,1,4,West,Oregon St,VCU,10
+2,2016,1,4,West,Oklahoma,Cal St Bakersfield,15

@@ -5,6 +5,15 @@ import pandas as pd
 import requests
 import time
 
+LEAGUE = "men"
+# LEAGUE = "women"
+
+mm_results_path = f'../data/{LEAGUE}/mm-results.csv' # if wanted year is not in mm-results, use first_rounds/<year>_firsts.csv
+sports_reference_names_path = 'sports-reference-names.json'
+errors_path = 'errors'
+error_list_filename = 'error-list.txt'
+data_yearly_path = f'../data/{LEAGUE}/yearly'
+
 logging.getLogger().setLevel(logging.INFO) # toggle logging level
 
 # helper function to parse HTML table
@@ -36,13 +45,6 @@ def parse_html_table(table):
     
     return games
 
-# configure file paths
-mm_results_path = '../data/first_rounds/2025_firsts.csv'
-sports_reference_names_path = 'sports-reference-names.json'
-errors_path = 'errors'
-error_list_filename = 'error-list.txt'
-data_yearly_path = '../data/yearly'
-
 df = pd.read_csv(mm_results_path)
 
 with open(sports_reference_names_path) as f:
@@ -63,14 +65,14 @@ for error in error_list:
 
     # make HTTP request to Sports Reference
     sr_team = sr_names[team]
-    schedule_response = requests.get(f"https://www.sports-reference.com/cbb/schools/{sr_team}/men/{year}-schedule.html")
+    schedule_response = requests.get(f"https://www.sports-reference.com/cbb/schools/{sr_team}/{LEAGUE}/{year}-schedule.html")
 
     # handle error status code
     if schedule_response.status_code != 200:
         with open(f'{errors_path}/{year}-{team}.html', 'w') as f:
             f.write(schedule_response.text)
         with open(f'{errors_path}/{error_list_filename}', 'a') as f:
-            f.write(f"{year}-{team}: {schedule_response.status_code}\n")
+            f.write(f"{year},{team},{schedule_response.status_code}\n")
         logging.error(f"Error retrieving schedule for {team} in {year}")
         continue
 
@@ -78,11 +80,14 @@ for error in error_list:
     soup = BeautifulSoup(schedule_response.text, 'html.parser')
     table = soup.find(id='schedule')
     if table is None:
+        table = soup.find(id='schedule_incomplete') # some pages have incomplete schedule with different id
+    if table is None:
         logging.error(f'No schedule found for {year} {team}')
         with open(f'{errors_path}/{year}-{team}.html', 'w') as f:
             f.write(schedule_response.text)
         with open(f'{errors_path}/{error_list_filename}', 'a') as f:
             f.write(f"{year},{team},No schedule found\n")
+        time.sleep(5) # be nice to the server
         continue
     games = parse_html_table(table)
     if games is None:
@@ -90,6 +95,7 @@ for error in error_list:
             f.write(schedule_response.text)
         with open(f'{errors_path}/{error_list_filename}', 'a') as f:
             f.write(f"{year},{team},Error parsing table\n")
+        time.sleep(5) # be nice to the server
         continue
     
     # save data to file

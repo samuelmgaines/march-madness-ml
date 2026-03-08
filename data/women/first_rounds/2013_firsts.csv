@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2013,1,1,Bridgeport,Connecticut,Idaho,16
+8,2013,1,1,Bridgeport,Vanderbilt,St Josephs,9
+5,2013,1,1,Bridgeport,Michigan St,Marist,12
+4,2013,1,1,Bridgeport,Maryland,Quinnipiac,13
+6,2013,1,1,Bridgeport,Delaware,West Virginia,11
+3,2013,1,1,Bridgeport,North Carolina,Albany,14
+7,2013,1,1,Bridgeport,Dayton,St Johns,10
+2,2013,1,1,Bridgeport,Kentucky,Navy,15
+1,2013,1,2,Norfolk,Notre Dame,UT-Martin,16
+8,2013,1,2,Norfolk,Miami,Iowa,9
+5,2013,1,2,Norfolk,Colorado,Kansas,12
+4,2013,1,2,Norfolk,South Carolina,South Dakota St,13
+6,2013,1,2,Norfolk,Nebraska,Chattanooga,11
+3,2013,1,2,Norfolk,Texas A&M,Wichita St,14
+7,2013,1,2,Norfolk,Oklahoma St,DePaul,10
+2,2013,1,2,Norfolk,Duke,Hampton,15
+1,2013,1,3,Oklahomacity,Baylor,Prairie View,16
+8,2013,1,3,Oklahomacity,Florida St,Princeton,9
+5,2013,1,3,Oklahomacity,Louisville,Middle Tennessee St,12
+4,2013,1,3,Oklahomacity,Purdue,Liberty,13
+6,2013,1,3,Oklahomacity,Oklahoma,Central Michigan,11
+3,2013,1,3,Oklahomacity,UCLA,Stetson,14
+7,2013,1,3,Oklahomacity,Syracuse,Creighton,10
+2,2013,1,3,Oklahomacity,Tennessee,Oral Roberts,15
+1,2013,1,4,Spokane,Stanford,Tulsa,16
+8,2013,1,4,Spokane,Michigan,Villanova,9
+5,2013,1,4,Spokane,Iowa St,Gonzaga,12
+4,2013,1,4,Spokane,Georgia,Montana,13
+6,2013,1,4,Spokane,LSU,Wisconsin Green Bay,11
+3,2013,1,4,Spokane,Penn St,Cal Poly,14
+7,2013,1,4,Spokane,Texas Tech,South Florida,10
+2,2013,1,4,Spokane,California,Fresno St,15

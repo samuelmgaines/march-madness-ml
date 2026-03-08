@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2005,1,1,Chattanooga,LSU,Stetson,16
+8,2005,1,1,Chattanooga,Oklahoma,Arizona,9
+5,2005,1,1,Chattanooga,DePaul,Virginia Tech,12
+4,2005,1,1,Chattanooga,Penn St,Liberty,13
+6,2005,1,1,Chattanooga,Georgia,Rice,11
+3,2005,1,1,Chattanooga,Texas,Oral Roberts,14
+7,2005,1,1,Chattanooga,Boston College,Houston,10
+2,2005,1,1,Chattanooga,Duke,Canisius,15
+1,2005,1,2,Kansascity,Michigan St,Alcorn St,16
+8,2005,1,2,Kansascity,USC,Louisville,9
+5,2005,1,2,Kansascity,Vanderbilt,Montana,12
+4,2005,1,2,Kansascity,Kansas St,Bowling Green,13
+6,2005,1,2,Kansascity,Florida St,Richmond,11
+3,2005,1,2,Kansascity,Connecticut,Dartmouth,14
+7,2005,1,2,Kansascity,Iowa St,Utah,10
+2,2005,1,2,Kansascity,Stanford,Santa Clara,15
+1,2005,1,3,Philadelphia,Tennessee,Western Carolina,16
+8,2005,1,3,Philadelphia,New Mexico,Purdue,9
+5,2005,1,3,Philadelphia,NC State,Middle Tennessee St,12
+4,2005,1,3,Philadelphia,Texas Tech,Texas Arlington,13
+6,2005,1,3,Philadelphia,Temple,Louisiana Tech,11
+3,2005,1,3,Philadelphia,Rutgers,Hartford,14
+7,2005,1,3,Philadelphia,Maryland,Wisconsin Green Bay,10
+2,2005,1,3,Philadelphia,Ohio St,Holy Cross,15
+1,2005,1,4,Tempe,North Carolina,Coppin St,16
+8,2005,1,4,Tempe,Ole Miss,George Washington,9
+5,2005,1,4,Tempe,Arizona St,Eastern Kentucky,12
+4,2005,1,4,Tempe,Notre Dame,Santa Barbara,13
+6,2005,1,4,Tempe,Virginia,Old Dominion,11
+3,2005,1,4,Tempe,Minnesota,St Francis,14
+7,2005,1,4,Tempe,TCU,Oregon,10
+2,2005,1,4,Tempe,Baylor,Illinois St,15

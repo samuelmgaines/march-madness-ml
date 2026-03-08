@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2023,1,1,Greenville1,South Carolina,Norfolk St,16
+8,2023,1,1,Greenville1,South Florida,Marquette,9
+5,2023,1,1,Greenville1,Oklahoma,Portland,12
+4,2023,1,1,Greenville1,UCLA,Sacramento State,13
+6,2023,1,1,Greenville1,Creighton,Mississippi St,11
+3,2023,1,1,Greenville1,Notre Dame,Southern Utah,14
+7,2023,1,1,Greenville1,Arizona,West Virginia,10
+2,2023,1,1,Greenville1,Maryland,Holy Cross,15
+1,2023,1,2,Greenville2,Indiana,Tennessee Tech,16
+8,2023,1,2,Greenville2,Oklahoma St,Miami,9
+5,2023,1,2,Greenville2,Washington St,Florida Gulf Coast,12
+4,2023,1,2,Greenville2,Villanova,Cleveland St,13
+6,2023,1,2,Greenville2,Michigan,UNLV,11
+3,2023,1,2,Greenville2,LSU,Hawaii,14
+7,2023,1,2,Greenville2,NC State,Princeton,10
+2,2023,1,2,Greenville2,Utah,Gardner Webb,15
+1,2023,1,3,Seattle3,Virginia Tech,Chattanooga,16
+8,2023,1,3,Seattle3,USC,South Dakota St,9
+5,2023,1,3,Seattle3,Iowa St,Toledo,12
+4,2023,1,3,Seattle3,Tennessee,St Louis,13
+6,2023,1,3,Seattle3,North Carolina,St Johns,11
+3,2023,1,3,Seattle3,Ohio St,James Madison,14
+7,2023,1,3,Seattle3,Baylor,Alabama,10
+2,2023,1,3,Seattle3,Connecticut,Vermont,15
+1,2023,1,4,Seattle4,Stanford,Sacred Heart,16
+8,2023,1,4,Seattle4,Ole Miss,Gonzaga,9
+5,2023,1,4,Seattle4,Louisville,Drake,12
+4,2023,1,4,Seattle4,Texas,East Carolina,13
+6,2023,1,4,Seattle4,Colorado,Middle Tennessee St,11
+3,2023,1,4,Seattle4,Duke,Iona,14
+7,2023,1,4,Seattle4,Florida St,Georgia,10
+2,2023,1,4,Seattle4,Iowa,Southeastern Louisiana,15

@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2000,1,1,East,Connecticut,Hampton,16
+8,2000,1,1,East,Drake,Clemson,9
+5,2000,1,1,East,Oklahoma,BYU,12
+4,2000,1,1,East,Purdue,Dartmouth,13
+6,2000,1,1,East,Xavier,Stephen F Austin,11
+3,2000,1,1,East,LSU,Liberty,14
+7,2000,1,1,East,Marquette,Western Kentucky,10
+2,2000,1,1,East,Duke,Campbell,15
+1,2000,1,2,Mideast,Tennessee,Furman,16
+8,2000,1,2,Mideast,Arizona,Kent St,9
+5,2000,1,2,Mideast,Boston College,Nebraska,12
+4,2000,1,2,Mideast,Virginia,Pepperdine,13
+6,2000,1,2,Mideast,Tulane,Vermont,11
+3,2000,1,2,Mideast,Texas Tech,Tennessee Tech,14
+7,2000,1,2,Mideast,George Washington,UCLA,10
+2,2000,1,2,Mideast,Notre Dame,San Diego,15
+1,2000,1,3,Midwest,Louisiana Tech,Alcorn St,16
+8,2000,1,3,Midwest,Kansas,Vanderbilt,9
+5,2000,1,3,Midwest,NC State,SMU,12
+4,2000,1,3,Midwest,Old Dominion,Wisconsin Green Bay,13
+6,2000,1,3,Midwest,Illinois,Utah,11
+3,2000,1,3,Midwest,Iowa St,St Francis,14
+7,2000,1,3,Midwest,Auburn,Southwest Missouri St,10
+2,2000,1,3,Midwest,Penn St,Youngstown State,15
+1,2000,1,4,West,Georgia,Montana,16
+8,2000,1,4,West,Michigan,Stanford,9
+5,2000,1,4,West,North Carolina,Maine,12
+4,2000,1,4,West,Santa Barbara,Rice,13
+6,2000,1,4,West,Oregon,UAB,11
+3,2000,1,4,West,Mississippi St,St Peters,14
+7,2000,1,4,West,Texas,St Josephs,10
+2,2000,1,4,West,Rutgers,Holy Cross,15

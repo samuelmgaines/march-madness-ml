@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,1988,1,1,East,Temple,Lehigh,16
+8,1988,1,1,East,Georgetown,LSU,9
+5,1988,1,1,East,Georgia Tech,Iowa St,12
+4,1988,1,1,East,Indiana,Richmond,13
+6,1988,1,1,East,Missouri,Rhode Island,11
+3,1988,1,1,East,Syracuse,North Carolina A&T,14
+7,1988,1,1,East,SMU,Notre Dame,10
+2,1988,1,1,East,Duke,Boston University,15
+1,1988,1,2,Midwest,Purdue,Fairleigh Dickinson,16
+8,1988,1,2,Midwest,Baylor,Memphis,9
+5,1988,1,2,Midwest,DePaul,Wichita St,12
+4,1988,1,2,Midwest,Kansas St,La Salle,13
+6,1988,1,2,Midwest,Kansas,Xavier,11
+3,1988,1,2,Midwest,NC State,Murray St,14
+7,1988,1,2,Midwest,Vanderbilt,Utah St,10
+2,1988,1,2,Midwest,Pittsburgh,Eastern Michigan,15
+1,1988,1,3,Southeast,Oklahoma,Chattanooga,16
+8,1988,1,3,Southeast,Auburn,Bradley,9
+5,1988,1,3,Southeast,Louisville,Oregon St,12
+4,1988,1,3,Southeast,BYU,Charlotte,13
+6,1988,1,3,Southeast,Villanova,Arkansas,11
+3,1988,1,3,Southeast,Illinois,Texas San Antonio,14
+7,1988,1,3,Southeast,Maryland,Santa Barbara,10
+2,1988,1,3,Southeast,Kentucky,Southern,15
+1,1988,1,4,West,Arizona,Cornell,16
+8,1988,1,4,West,Seton Hall,UTEP,9
+5,1988,1,4,West,Iowa,Florida St,12
+4,1988,1,4,West,UNLV,Southwest Missouri St,13
+6,1988,1,4,West,Florida,St Johns,11
+3,1988,1,4,West,Michigan,Boise St,14
+7,1988,1,4,West,Wyoming,Loyola Marymount,10
+2,1988,1,4,West,North Carolina,North Texas,15

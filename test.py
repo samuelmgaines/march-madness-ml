@@ -2,8 +2,12 @@ import joblib
 import json
 import pandas as pd
 
+# LEAGUE = "men"
+LEAGUE = "women"
+prediction_years = [2025]  # Adjust this list to include the years you want to predict
+
 # Load the trained model
-model = joblib.load("march_madness_model.pkl")
+model = joblib.load(f"models/{LEAGUE}/march_madness_model.pkl")
 
 import os
 import logging
@@ -19,7 +23,7 @@ def get_srs(srs_str):
 
 # Extract team level stats
 def load_team_stats(year, team_name):
-    file_path = f"data/yearly/{year}-{team_name}.json"
+    file_path = f"data/{LEAGUE}/yearly/{year}-{team_name}.json"
     if not os.path.exists(file_path):
         logging.error(f"File not found: {file_path}")
         return None
@@ -72,7 +76,7 @@ def get_head_to_head(team1_stats, team2_stats, team1, team2):
 # Load first-round matchups (assume this is from a CSV or pre-defined dataset)
 def load_first_round(year):
     """Loads first-round matchups for the given year."""
-    df = pd.read_csv(f"data/first_rounds/{year}_firsts.csv")  # Ensure the CSV has correct format
+    df = pd.read_csv(f"data/{LEAGUE}/first_rounds/{year}_firsts.csv")  # Ensure the CSV has correct format
     return df
 
 # Predict game winners
@@ -100,11 +104,12 @@ def predict_winner(team1, team2, seed1, seed2, year, round, model):
         "Streak_high": max(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_low": min(team1_stats["Streak Score"], team2_stats["Streak Score"]),
         "Streak_diff": team1_stats["Streak Score"] - team2_stats["Streak Score"],
-        "Head_to_head": get_head_to_head(team1_stats, team2_stats, team1, team2),
+        # "Head_to_head": get_head_to_head(team1_stats, team2_stats, team1, team2),
         # "Seed_diff": seed1 - seed2,
         # "Seed_high": max(seed1, seed2),
         # "Seed_low": min(seed1, seed2),
-        "Round": round
+        "Round": round,
+        "Year": year
     }])
 
     return team1 if model.predict(features)[0] == 1 else team2
@@ -141,5 +146,5 @@ def simulate_bracket(year, model, output_file="predicted_bracket.json"):
     print(f"Bracket saved to {output_file}")
 
 # Run bracket simulation
-for year in [2025]:
-    simulate_bracket(year, model, output_file="predicted_brackets/predicted_bracket_{}.json".format(year))
+for year in prediction_years:
+    simulate_bracket(year, model, output_file=f"predicted_brackets/{LEAGUE}/predicted_bracket_{year}.json")

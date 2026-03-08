@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2001,1,1,East,Duke,Monmouth,16
+8,2001,1,1,East,Georgia,Missouri,9
+5,2001,1,1,East,Ohio St,Utah St,12
+4,2001,1,1,East,UCLA,Hofstra,13
+6,2001,1,1,East,USC,Oklahoma St,11
+3,2001,1,1,East,Boston College,Southern Utah,14
+7,2001,1,1,East,Iowa,Creighton,10
+2,2001,1,1,East,Kentucky,Holy Cross,15
+1,2001,1,2,Midwest,Illinois,Northwestern St,16
+8,2001,1,2,Midwest,Tennessee,Charlotte,9
+5,2001,1,2,Midwest,Syracuse,Hawaii,12
+4,2001,1,2,Midwest,Kansas,Cal St Northridge,13
+6,2001,1,2,Midwest,Notre Dame,Xavier,11
+3,2001,1,2,Midwest,Ole Miss,Iona,14
+7,2001,1,2,Midwest,Wake Forest,Butler,10
+2,2001,1,2,Midwest,Arizona,Eastern Illinois,15
+1,2001,1,3,South,Michigan St,Alabama St,16
+8,2001,1,3,South,California,Fresno St,9
+5,2001,1,3,South,Virginia,Gonzaga,12
+4,2001,1,3,South,Oklahoma,Indiana St,13
+6,2001,1,3,South,Texas,Temple,11
+3,2001,1,3,South,Florida,Western Kentucky,14
+7,2001,1,3,South,Penn St,Providence,10
+2,2001,1,3,South,North Carolina,Princeton,15
+1,2001,1,4,West,Stanford,UNC Greensboro,16
+8,2001,1,4,West,Georgia Tech,St Josephs,9
+5,2001,1,4,West,Cincinnati,BYU,12
+4,2001,1,4,West,Indiana,Kent St,13
+6,2001,1,4,West,Wisconsin,Georgia St,11
+3,2001,1,4,West,Maryland,George Mason,14
+7,2001,1,4,West,Arkansas,Georgetown,10
+2,2001,1,4,West,Iowa St,Hampton,15

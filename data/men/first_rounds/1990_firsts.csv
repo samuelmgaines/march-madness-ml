@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,1990,1,1,East,Connecticut,Boston University,16
+8,1990,1,1,East,Indiana,California,9
+5,1990,1,1,East,Clemson,BYU,12
+4,1990,1,1,East,La Salle,Southern Mississippi,13
+6,1990,1,1,East,St Johns,Temple,11
+3,1990,1,1,East,Duke,Richmond,14
+7,1990,1,1,East,UCLA,UAB,10
+2,1990,1,1,East,Kansas,Robert Morris,15
+1,1990,1,2,Midwest,Oklahoma,Towson,16
+8,1990,1,2,Midwest,North Carolina,Southwest Missouri St,9
+5,1990,1,2,Midwest,Illinois,Dayton,12
+4,1990,1,2,Midwest,Arkansas,Princeton,13
+6,1990,1,2,Midwest,Xavier,Kansas St,11
+3,1990,1,2,Midwest,Georgetown,Texas Southern,14
+7,1990,1,2,Midwest,Georgia,Texas,10
+2,1990,1,2,Midwest,Purdue,Louisiana Monroe,15
+1,1990,1,3,Southeast,Michigan St,Murray St,16
+8,1990,1,3,Southeast,Houston,Santa Barbara,9
+5,1990,1,3,Southeast,LSU,Villanova,12
+4,1990,1,3,Southeast,Georgia Tech,East Tennessee St,13
+6,1990,1,3,Southeast,Minnesota,UTEP,11
+3,1990,1,3,Southeast,Missouri,Northern Iowa,14
+7,1990,1,3,Southeast,Virginia,Notre Dame,10
+2,1990,1,3,Southeast,Syracuse,Coppin St,15
+1,1990,1,4,West,UNLV,Arkansas Little Rock,16
+8,1990,1,4,West,Ohio St,Providence,9
+5,1990,1,4,West,Oregon St,Ball St,12
+4,1990,1,4,West,Louisville,Idaho,13
+6,1990,1,4,West,New Mexico St,Loyola Marymount,11
+3,1990,1,4,West,Michigan,Illinois St,14
+7,1990,1,4,West,Alabama,Colorado St,10
+2,1990,1,4,West,Arizona,South Florida,15

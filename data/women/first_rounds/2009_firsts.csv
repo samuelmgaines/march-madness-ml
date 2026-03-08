@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2009,1,1,Berkeley,Duke,Austin Peay,16
+8,2009,1,1,Berkeley,Middle Tennessee St,Michigan St,9
+5,2009,1,1,Berkeley,Tennessee,Ball St,12
+4,2009,1,1,Berkeley,Iowa St,East Tennessee St,13
+6,2009,1,1,Berkeley,Texas,Mississippi St,11
+3,2009,1,1,Berkeley,Ohio St,Sacred Heart,14
+7,2009,1,1,Berkeley,DePaul,San Diego St,10
+2,2009,1,1,Berkeley,Stanford,Santa Barbara,15
+1,2009,1,2,Oklahomacity,Oklahoma,Prairie View,16
+8,2009,1,2,Oklahomacity,Iowa,Georgia Tech,9
+5,2009,1,2,Oklahomacity,Xavier,Gonzaga,12
+4,2009,1,2,Oklahomacity,Pittsburgh,Montana,13
+6,2009,1,2,Oklahomacity,Purdue,Charlotte,11
+3,2009,1,2,Oklahomacity,North Carolina,Central Florida,14
+7,2009,1,2,Oklahomacity,Rutgers,VCU,10
+2,2009,1,2,Oklahomacity,Auburn,Lehigh,15
+1,2009,1,3,Raleigh,Maryland,Dartmouth,16
+8,2009,1,3,Raleigh,Villanova,Utah,9
+5,2009,1,3,Raleigh,Kansas St,Drexel,12
+4,2009,1,3,Raleigh,Vanderbilt,Western Carolina,13
+6,2009,1,3,Raleigh,LSU,Wisconsin Green Bay,11
+3,2009,1,3,Raleigh,Louisville,Liberty,14
+7,2009,1,3,Raleigh,South Dakota St,TCU,10
+2,2009,1,3,Raleigh,Baylor,Texas San Antonio,15
+1,2009,1,4,Trenton,Connecticut,Vermont,16
+8,2009,1,4,Trenton,Florida,Temple,9
+5,2009,1,4,Trenton,Virginia,Marist,12
+4,2009,1,4,Trenton,California,Fresno St,13
+6,2009,1,4,Trenton,Arizona St,Georgia,11
+3,2009,1,4,Trenton,Florida St,North Carolina A&T,14
+7,2009,1,4,Trenton,Notre Dame,Minnesota,10
+2,2009,1,4,Trenton,Texas A&M,Evansville,15

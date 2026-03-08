@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2024,1,1,East,Connecticut,Stetson,16
+8,2024,1,1,East,Florida Atlantic,Northwestern,9
+5,2024,1,1,East,San Diego St,UAB,12
+4,2024,1,1,East,Auburn,Yale,13
+6,2024,1,1,East,BYU,Duquesne,11
+3,2024,1,1,East,Illinois,Morehead St,14
+7,2024,1,1,East,Washington St,Drake,10
+2,2024,1,1,East,Iowa St,South Dakota St,15
+1,2024,1,2,Midwest,Purdue,Grambling,16
+8,2024,1,2,Midwest,Utah St,TCU,9
+5,2024,1,2,Midwest,Gonzaga,McNeese St,12
+4,2024,1,2,Midwest,Kansas,Samford,13
+6,2024,1,2,Midwest,South Carolina,Oregon,11
+3,2024,1,2,Midwest,Creighton,Akron,14
+7,2024,1,2,Midwest,Texas,Colorado St,10
+2,2024,1,2,Midwest,Tennessee,St Peters,15
+1,2024,1,3,South,Houston,Longwood,16
+8,2024,1,3,South,Nebraska,Texas A&M,9
+5,2024,1,3,South,Wisconsin,James Madison,12
+4,2024,1,3,South,Duke,Vermont,13
+6,2024,1,3,South,Texas Tech,NC State,11
+3,2024,1,3,South,Kentucky,Oakland,14
+7,2024,1,3,South,Florida,Colorado,10
+2,2024,1,3,South,Marquette,Western Kentucky,15
+1,2024,1,4,West,North Carolina,Wagner,16
+8,2024,1,4,West,Mississippi St,Michigan St,9
+5,2024,1,4,West,St Marys,Grand Canyon,12
+4,2024,1,4,West,Alabama,College of Charleston,13
+6,2024,1,4,West,Clemson,New Mexico,11
+3,2024,1,4,West,Baylor,Colgate,14
+7,2024,1,4,West,Dayton,Nevada,10
+2,2024,1,4,West,Arizona,Long Beach St,15
