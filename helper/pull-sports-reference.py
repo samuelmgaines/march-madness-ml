@@ -7,7 +7,7 @@ import time
 
 LEAGUE = "men"
 # LEAGUE = "women"
-FIRST_YEAR = 2025 # men first year
+FIRST_YEAR = 1985 # men first year
 # FIRST_YEAR = 1994 # women first year
 LAST_YEAR = 2025 # adjust as needed
 EXCLUDE_YEARS = {2020}
