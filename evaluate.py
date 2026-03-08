@@ -1,7 +1,7 @@
 import pandas as pd
 
-LEAGUE = "men"
-# LEAGUE = "women"
+# LEAGUE = "men"
+LEAGUE = "women"
 eval_years = [2025]
 
 # Load actual results

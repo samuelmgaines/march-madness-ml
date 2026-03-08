@@ -5,12 +5,12 @@ import time
 import json
 import os
 
-START_YEAR = 1985
+# LEAGUE = "men"
+LEAGUE = "women"
+# START_YEAR = 1985 # men first year
+START_YEAR = 1994 # women first year
 END_YEAR = 2025
 EXCLUDE_YEARS = {2020}
-
-LEAGUE = "men"
-# LEAGUE = "women"
 
 OUTPUT_FILE = f"../data/{LEAGUE}/mm-results.csv"
 TEAM_DATA_DIR = f"../data/{LEAGUE}/teams"

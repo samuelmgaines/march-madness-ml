@@ -2,8 +2,8 @@ import joblib
 import json
 import pandas as pd
 
-LEAGUE = "men"
-# LEAGUE = "women"
+# LEAGUE = "men"
+LEAGUE = "women"
 prediction_years = [2025]  # Adjust this list to include the years you want to predict
 
 # Load the trained model
@@ -76,7 +76,7 @@ def get_head_to_head(team1_stats, team2_stats, team1, team2):
 # Load first-round matchups (assume this is from a CSV or pre-defined dataset)
 def load_first_round(year):
     """Loads first-round matchups for the given year."""
-    df = pd.read_csv(f"data/first_rounds/{year}_firsts.csv")  # Ensure the CSV has correct format
+    df = pd.read_csv(f"data/{LEAGUE}/first_rounds/{year}_firsts.csv")  # Ensure the CSV has correct format
     return df
 
 # Predict game winners

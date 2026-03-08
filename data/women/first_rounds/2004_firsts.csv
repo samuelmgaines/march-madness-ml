@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2004,1,1,East,Penn St,Hampton,16
+8,2004,1,1,East,Virginia Tech,Iowa,9
+5,2004,1,1,East,Notre Dame,Southwest Missouri St,12
+4,2004,1,1,East,North Carolina,Middle Tennessee St,13
+6,2004,1,1,East,Colorado,Santa Barbara,11
+3,2004,1,1,East,Houston,Wisconsin Green Bay,14
+7,2004,1,1,East,Auburn,NC State,10
+2,2004,1,1,East,Connecticut,Pennsylvania,15
+1,2004,1,2,Mideast,Duke,Northwestern St,16
+8,2004,1,2,Mideast,Old Dominion,Marquette,9
+5,2004,1,2,Mideast,Louisiana Tech,Montana,12
+4,2004,1,2,Mideast,Texas Tech,Maine,13
+6,2004,1,2,Mideast,Ohio St,West Virginia,11
+3,2004,1,2,Mideast,Boston College,Eastern Michigan,14
+7,2004,1,2,Mideast,Minnesota,UCLA,10
+2,2004,1,2,Mideast,Kansas St,Valparaiso,15
+1,2004,1,3,Midwest,Tennessee,Colgate,16
+8,2004,1,3,Midwest,George Washington,DePaul,9
+5,2004,1,3,Midwest,Florida,New Mexico,12
+4,2004,1,3,Midwest,Baylor,Loyola Marymount,13
+6,2004,1,3,Midwest,Stanford,Missouri,11
+3,2004,1,3,Midwest,Oklahoma,Marist,14
+7,2004,1,3,Midwest,Rutgers,Chattanooga,10
+2,2004,1,3,Midwest,Vanderbilt,Lipscomb,15
+1,2004,1,4,West,Texas,Southern,16
+8,2004,1,4,West,Michigan St,Arizona,9
+5,2004,1,4,West,Miami,Maryland,12
+4,2004,1,4,West,LSU,Austin Peay,13
+6,2004,1,4,West,TCU,Temple,11
+3,2004,1,4,West,Georgia,Liberty,14
+7,2004,1,4,West,Villanova,Ole Miss,10
+2,2004,1,4,West,Purdue,St Francis,15

@@ -1,0 +1,33 @@
+Seed 1,Year,Round,Region Number,Region Name,Team 1,Team 2,Seed 2
+1,2015,1,1,Albany,Connecticut,St. Francis (NY),16
+8,2015,1,1,Albany,Rutgers,Seton Hall,9
+5,2015,1,1,Albany,Texas,Western Kentucky,12
+4,2015,1,1,Albany,California,Wichita St,13
+6,2015,1,1,Albany,South Florida,LSU,11
+3,2015,1,1,Albany,Louisville,BYU,14
+7,2015,1,1,Albany,Dayton,Iowa St,10
+2,2015,1,1,Albany,Kentucky,Tennessee St,15
+1,2015,1,2,Greensboro,South Carolina,Savannah State,16
+8,2015,1,2,Greensboro,Syracuse,Nebraska,9
+5,2015,1,2,Greensboro,Ohio St,James Madison,12
+4,2015,1,2,Greensboro,North Carolina,Liberty,13
+6,2015,1,2,Greensboro,Texas A&M,Arkansas Little Rock,11
+3,2015,1,2,Greensboro,Arizona St,Ohio,14
+7,2015,1,2,Greensboro,Florida Gulf Coast,Oklahoma St,10
+2,2015,1,2,Greensboro,Florida St,Alabama St,15
+1,2015,1,3,Oklahomacity,Notre Dame,Montana,16
+8,2015,1,3,Oklahomacity,Minnesota,DePaul,9
+5,2015,1,3,Oklahomacity,Oklahoma,Quinnipiac,12
+4,2015,1,3,Oklahomacity,Stanford,Cal St Northridge,13
+6,2015,1,3,Oklahomacity,Washington,Miami,11
+3,2015,1,3,Oklahomacity,Iowa,American,14
+7,2015,1,3,Oklahomacity,Northwestern,Arkansas,10
+2,2015,1,3,Oklahomacity,Baylor,Northwestern St,15
+1,2015,1,4,Spokane,Maryland,New Mexico St,16
+8,2015,1,4,Spokane,Princeton,Wisconsin Green Bay,9
+5,2015,1,4,Spokane,Mississippi St,Tulane,12
+4,2015,1,4,Spokane,Duke,Albany,13
+6,2015,1,4,Spokane,George Washington,Gonzaga,11
+3,2015,1,4,Spokane,Oregon St,South Dakota St,14
+7,2015,1,4,Spokane,Chattanooga,Pittsburgh,10
+2,2015,1,4,Spokane,Tennessee,Boise St,15

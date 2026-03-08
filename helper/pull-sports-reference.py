@@ -7,8 +7,8 @@ import time
 
 LEAGUE = "men"
 # LEAGUE = "women"
-FIRST_YEAR = 1985 # men first year
-# FIRST_YEAR = 1994 # women first year
+# FIRST_YEAR = 1985 # men first year
+FIRST_YEAR = 1994 # women first year
 LAST_YEAR = 2025 # adjust as needed
 EXCLUDE_YEARS = {2020}
 
@@ -91,11 +91,14 @@ for year in range(FIRST_YEAR, LAST_YEAR + 1):  # adjust the range for the years 
             soup = BeautifulSoup(schedule_response.text, 'html.parser')
             table = soup.find(id='schedule')
             if table is None:
+                table = soup.find(id='schedule_incomplete') # some pages have incomplete schedule with different id
+            if table is None:
                 logging.error(f'No schedule found for {year} {team}')
                 with open(f'{errors_path}/{year}-{team}.html', 'w') as f:
                     f.write(schedule_response.text)
                 with open(f'{errors_path}/{error_list_filename}', 'a') as f:
                     f.write(f"{year},{team},No schedule found\n")
+                time.sleep(5) # be nice to the server
                 continue
             games = parse_html_table(table)
             if games is None:
@@ -103,6 +106,7 @@ for year in range(FIRST_YEAR, LAST_YEAR + 1):  # adjust the range for the years 
                     f.write(schedule_response.text)
                 with open(f'{errors_path}/{error_list_filename}', 'a') as f:
                     f.write(f"{year},{team},Error parsing table\n")
+                time.sleep(5) # be nice to the server
                 continue
             
             # save data to file

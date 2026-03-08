@@ -2,8 +2,8 @@ import pickle
 import xgboost as xgb
 import numpy as np
 
-LEAGUE = "men"
-# LEAGUE = "women"
+# LEAGUE = "men"
+LEAGUE = "women"
 
 # Load the XGBoost model
 with open(f"models/{LEAGUE}/march_madness_model.pkl", "rb") as f:

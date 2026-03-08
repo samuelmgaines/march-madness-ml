@@ -1,10 +1,10 @@
 import pandas as pd
 
-LEAGUE = "men"
-# LEAGUE = "women"
+# LEAGUE = "men"
+LEAGUE = "women"
 
 # Load the dataset
-input_file = f"../data/{LEAGUE}/mm-results.csv"  # Update this with the actual filename
+input_file = f"../data/{LEAGUE}/mm-results.csv"
 df = pd.read_csv(input_file)
 
 # Drop score columns
