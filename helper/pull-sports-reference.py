@@ -5,14 +5,15 @@ import pandas as pd
 import requests
 import time
 
-LEAGUE = "men"
-# LEAGUE = "women"
+# LEAGUE = "men"
+LEAGUE = "women"
 # FIRST_YEAR = 1985 # men first year
-FIRST_YEAR = 1994 # women first year
-LAST_YEAR = 2025 # adjust as needed
+# FIRST_YEAR = 1994 # women first year
+LAST_YEAR = 2026 # adjust as needed
 EXCLUDE_YEARS = {2020}
 
 mm_results_path = f'../data/{LEAGUE}/mm-results.csv' # if wanted year is not in mm-results, use first_rounds/<year>_firsts.csv
+
 sports_reference_names_path = 'sports-reference-names.json'
 errors_path = 'errors'
 error_list_filename = 'error-list.txt'
