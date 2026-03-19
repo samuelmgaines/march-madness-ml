@@ -15,7 +15,7 @@ prediction_years = [2026]
 model = joblib.load(f"models/{LEAGUE}/march_madness_model.pkl")
 
 # Load team ID mapping
-with open(f"kaggle/{LEAGUE}_team_ids.json", "r") as f:
+with open(f"{LEAGUE}_team_ids.json", "r") as f:
     team_name_to_id = json.load(f)
 
 # Helper function to get srs score from string
@@ -311,5 +311,5 @@ for year in prediction_years:
     generate_tournament_probabilities(
         year, 
         model, 
-        output_file=f"kaggle/predictions/{LEAGUE}/probabilities_{year}.csv"
+        output_file=f"predictions/{LEAGUE}/probabilities_{year}.csv"
     )
