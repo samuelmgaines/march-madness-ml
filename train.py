@@ -9,9 +9,9 @@ import time
 from sklearn.ensemble import RandomForestClassifier
 import random
 
-LEAGUE = "men"
-# LEAGUE = "women"
-excluded_years = {2025}  # Exclude years to test later (don't train on them)
+# LEAGUE = "men"
+LEAGUE = "women"
+excluded_years = {2026}  # Exclude years to test later (don't train on them)
 
 
 # Safe helpers
@@ -102,14 +102,39 @@ def load_team_stats(year, team_name):
 
     streak_score = 0
     wins = []
+    win_srs = []
+    loss_srs = []
 
     for g in regular_season_games:
-        if get_stat(g, "game_result", "result") == "W":
+        result = get_stat(g, "game_result", "result")
+        srs_str = get_stat(g, "srs", "SRS").strip()
+        srs_val = get_srs(srs_str)
+
+        if result == "W":
             wins.append(get_stat(g, "opp_name", "opponent"))
+            win_srs.append(srs_val)
+        elif result == "L":
+            loss_srs.append(srs_val)
 
     for i, g in enumerate(regular_season_games[-10:]):
         if get_stat(g, "game_result", "result") == "W":
             streak_score += (i + 1) / 10 * get_srs(get_stat(g, "srs", "SRS").strip())
+    
+    # Best wins (top 3 SRS)
+    if win_srs:
+        top_wins = sorted(win_srs, reverse=True)[:3]
+        best_wins = sum(top_wins) / len(top_wins)
+    else:
+        best_wins = 0
+
+    # Worst losses (bottom 3 SRS)
+    if len(loss_srs) == 0:
+        worst_losses = max(best_wins, 0)
+    elif loss_srs:
+        worst_losses_list = sorted(loss_srs)[:3]
+        worst_losses = sum(worst_losses_list) / len(worst_losses_list)
+    else:
+        worst_losses = 0
 
     return {
         "SRS": srs_avg,
@@ -118,6 +143,8 @@ def load_team_stats(year, team_name):
         "Opp Ppg": avg_opp_points,
         "Streak Score": streak_score,
         "Wins": wins,
+        "Best Wins": best_wins,
+        "Worst Losses": worst_losses
     }
 
 
@@ -175,6 +202,13 @@ def add_team_stats(row):
             ),
             "Streak_diff": team1_stats["Streak Score"]
             - team2_stats["Streak Score"],
+            "Best_wins_diff": team1_stats["Best Wins"] - team2_stats["Best Wins"],
+            "Best_wins_high": max(team1_stats["Best Wins"], team2_stats["Best Wins"]),
+            "Best_wins_low": min(team1_stats["Best Wins"], team2_stats["Best Wins"]),
+
+            "Worst_losses_diff": team1_stats["Worst Losses"] - team2_stats["Worst Losses"],
+            "Worst_losses_high": max(team1_stats["Worst Losses"], team2_stats["Worst Losses"]),
+            "Worst_losses_low": min(team1_stats["Worst Losses"], team2_stats["Worst Losses"]),
             "Round": row["Round"],
             "Year": year,
             "Winner": 1 if row["Score 1"] > row["Score 2"] else 0,

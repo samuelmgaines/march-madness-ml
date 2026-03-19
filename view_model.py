@@ -2,8 +2,8 @@ import pickle
 import xgboost as xgb
 import numpy as np
 
-# LEAGUE = "men"
-LEAGUE = "women"
+LEAGUE = "men"
+# LEAGUE = "women"
 
 # Load the XGBoost model
 with open(f"models/{LEAGUE}/march_madness_model.pkl", "rb") as f:
@@ -20,7 +20,7 @@ for idx in sorted_idx:
 
 print()
 
-d = {"streak": 0, "win_percentage": 0, "srs": 0, "ppg": 0, "opp_ppg": 0, "round": 0, "year": 0}
+d = {"streak": 0, "win_percentage": 0, "srs": 0, "ppg": 0, "opp_ppg": 0, "round": 0, "year": 0, "best_wins": 0, "worst_losses": 0}
 for idx in sorted_idx:
     if feature_names[idx] == "Streak_diff" or feature_names[idx] == "Streak_high" or feature_names[idx] == "Streak_low":
         d["streak"] += importances[idx]
@@ -34,6 +34,10 @@ for idx in sorted_idx:
         d["opp_ppg"] += importances[idx]
     # elif feature_names[idx] == "Head_to_head":
     #     d["head_to_head"] = importances[idx]
+    elif feature_names[idx] == "Best_wins_diff" or feature_names[idx] == "Best_wins_high" or feature_names[idx] == "Best_wins_low":
+        d["best_wins"] += importances[idx]
+    elif feature_names[idx] == "Worst_losses_diff" or feature_names[idx] == "Worst_losses_high" or feature_names[idx] == "Worst_losses_low":
+        d["worst_losses"] += importances[idx]
     elif feature_names[idx] == "Round":
         d["round"] = importances[idx]
     elif feature_names[idx] == "Year":

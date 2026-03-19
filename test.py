@@ -2,9 +2,9 @@ import joblib
 import json
 import pandas as pd
 
-# LEAGUE = "men"
-LEAGUE = "women"
-prediction_years = [2025]  # Adjust this list to include the years you want to predict
+LEAGUE = "men"
+# LEAGUE = "women"
+prediction_years = [2026]  # Adjust this list to include the years you want to predict
 
 # Load the trained model
 model = joblib.load(f"models/{LEAGUE}/march_madness_model.pkl")
@@ -20,6 +20,13 @@ def get_srs(srs_str):
         except ValueError:
             return 0
     return 0
+
+# Helper function to safely convert to int
+def safe_int(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0
 
 # Extract team level stats
 def load_team_stats(year, team_name):
@@ -54,20 +61,54 @@ def load_team_stats(year, team_name):
     srs_avg = sum(srs_values) / len(srs_values)
     win_percentage = sum(1 for g in regular_season_games if g["game_result"] == "W") / total_games
     try:
-        avg_points = sum(int(g["pts"]) for g in regular_season_games) / total_games
+        avg_points = sum(safe_int(g["pts"]) for g in regular_season_games) / total_games
     except ValueError:
         print("Error calculating average points for team {}".format(team_name))
-    avg_opp_points = sum(int(g["opp_pts"]) for g in regular_season_games) / total_games
+    avg_opp_points = sum(safe_int(g["opp_pts"]) for g in regular_season_games) / total_games
     streak_score = 0
     for i, g in enumerate(regular_season_games[-10:]):
         if g["game_result"] == "W":
             streak_score += (i + 1)/10 * get_srs(g.get("srs", "").strip())
     wins = []
-    for g in regular_season_games:
-        if g["game_result"] == "W":
-            wins.append(g["opp_name"])
+    win_srs = []
+    loss_srs = []
 
-    return {"SRS": srs_avg, "Win%": win_percentage, "Ppg": avg_points, "Opp Ppg": avg_opp_points, "Streak Score": streak_score, "Wins": wins}
+    for g in regular_season_games:
+        result = g["game_result"]
+        srs_val = get_srs(g.get("srs", "").strip())
+
+        if result == "W":
+            wins.append(g["opp_name"])
+            if srs_val is not None:
+                win_srs.append(srs_val)
+        elif result == "L":
+            if srs_val is not None:
+                loss_srs.append(srs_val)
+
+    # Best wins (top 3 SRS)
+    if win_srs:
+        top_wins = sorted(win_srs, reverse=True)[:3]
+        best_wins = sum(top_wins) / len(top_wins)
+    else:
+        best_wins = 0
+
+    # Worst losses (bottom 3 SRS)
+    if loss_srs:
+        worst_losses_list = sorted(loss_srs)[:3]
+        worst_losses = sum(worst_losses_list) / len(worst_losses_list)
+    else:
+        worst_losses = 0
+
+    return {
+        "SRS": srs_avg,
+        "Win%": win_percentage,
+        "Ppg": avg_points,
+        "Opp Ppg": avg_opp_points,
+        "Streak Score": streak_score,
+        "Best Wins": best_wins,
+        "Worst Losses": worst_losses,
+        "Wins": wins
+    }
 
 # Get head-to-head record
 def get_head_to_head(team1_stats, team2_stats, team1, team2):
@@ -108,6 +149,12 @@ def predict_winner(team1, team2, seed1, seed2, year, round, model):
         # "Seed_diff": seed1 - seed2,
         # "Seed_high": max(seed1, seed2),
         # "Seed_low": min(seed1, seed2),
+        "Best_wins_diff": team1_stats["Best Wins"] - team2_stats["Best Wins"],
+        "Best_wins_high": max(team1_stats["Best Wins"], team2_stats["Best Wins"]),
+        "Best_wins_low": min(team1_stats["Best Wins"], team2_stats["Best Wins"]),
+        "Worst_losses_diff": team1_stats["Worst Losses"] - team2_stats["Worst Losses"],
+        "Worst_losses_high": max(team1_stats["Worst Losses"], team2_stats["Worst Losses"]),
+        "Worst_losses_low": min(team1_stats["Worst Losses"], team2_stats["Worst Losses"]),
         "Round": round,
         "Year": year
     }])

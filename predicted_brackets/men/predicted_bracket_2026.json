@@ -1,0 +1,317 @@
+[
+    {
+        "Round": 1,
+        "Matchup": "Duke vs Siena",
+        "Winner": "Duke"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Ohio St vs TCU",
+        "Winner": "Ohio St"
+    },
+    {
+        "Round": 1,
+        "Matchup": "St Johns vs Northern Iowa",
+        "Winner": "St Johns"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Kansas vs California Baptist",
+        "Winner": "Kansas"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Louisville vs South Florida",
+        "Winner": "Louisville"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Michigan St vs North Dakota St",
+        "Winner": "Michigan St"
+    },
+    {
+        "Round": 1,
+        "Matchup": "UCLA vs Central Florida",
+        "Winner": "UCLA"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Connecticut vs Furman",
+        "Winner": "Connecticut"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Florida vs Prairie View",
+        "Winner": "Florida"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Clemson vs Iowa",
+        "Winner": "Clemson"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Vanderbilt vs McNeese St",
+        "Winner": "Vanderbilt"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Nebraska vs Troy",
+        "Winner": "Nebraska"
+    },
+    {
+        "Round": 1,
+        "Matchup": "North Carolina vs VCU",
+        "Winner": "North Carolina"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Illinois vs Pennsylvania",
+        "Winner": "Illinois"
+    },
+    {
+        "Round": 1,
+        "Matchup": "St Marys vs Texas A&M",
+        "Winner": "St Marys"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Houston vs Idaho",
+        "Winner": "Houston"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Arizona vs Long Island Brooklyn",
+        "Winner": "Arizona"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Villanova vs Utah St",
+        "Winner": "Villanova"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Wisconsin vs High Point",
+        "Winner": "Wisconsin"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Arkansas vs Hawaii",
+        "Winner": "Arkansas"
+    },
+    {
+        "Round": 1,
+        "Matchup": "BYU vs Texas",
+        "Winner": "BYU"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Gonzaga vs Kennesaw State",
+        "Winner": "Gonzaga"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Miami vs Missouri",
+        "Winner": "Miami"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Purdue vs Queens",
+        "Winner": "Purdue"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Michigan vs Howard",
+        "Winner": "Michigan"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Georgia vs St Louis",
+        "Winner": "Georgia"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Texas Tech vs Akron",
+        "Winner": "Texas Tech"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Alabama vs Hofstra",
+        "Winner": "Alabama"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Tennessee vs Miami Ohio",
+        "Winner": "Tennessee"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Virginia vs Wright St",
+        "Winner": "Virginia"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Kentucky vs Santa Clara",
+        "Winner": "Kentucky"
+    },
+    {
+        "Round": 1,
+        "Matchup": "Iowa St vs Tennessee St",
+        "Winner": "Iowa St"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Duke vs Ohio St",
+        "Winner": "Duke"
+    },
+    {
+        "Round": 2,
+        "Matchup": "St Johns vs Kansas",
+        "Winner": "St Johns"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Louisville vs Michigan St",
+        "Winner": "Louisville"
+    },
+    {
+        "Round": 2,
+        "Matchup": "UCLA vs Connecticut",
+        "Winner": "Connecticut"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Florida vs Clemson",
+        "Winner": "Florida"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Vanderbilt vs Nebraska",
+        "Winner": "Vanderbilt"
+    },
+    {
+        "Round": 2,
+        "Matchup": "North Carolina vs Illinois",
+        "Winner": "Illinois"
+    },
+    {
+        "Round": 2,
+        "Matchup": "St Marys vs Houston",
+        "Winner": "Houston"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Arizona vs Villanova",
+        "Winner": "Arizona"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Wisconsin vs Arkansas",
+        "Winner": "Wisconsin"
+    },
+    {
+        "Round": 2,
+        "Matchup": "BYU vs Gonzaga",
+        "Winner": "Gonzaga"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Miami vs Purdue",
+        "Winner": "Purdue"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Michigan vs Georgia",
+        "Winner": "Michigan"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Texas Tech vs Alabama",
+        "Winner": "Alabama"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Tennessee vs Virginia",
+        "Winner": "Virginia"
+    },
+    {
+        "Round": 2,
+        "Matchup": "Kentucky vs Iowa St",
+        "Winner": "Iowa St"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Duke vs St Johns",
+        "Winner": "Duke"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Louisville vs Connecticut",
+        "Winner": "Connecticut"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Florida vs Vanderbilt",
+        "Winner": "Florida"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Illinois vs Houston",
+        "Winner": "Houston"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Arizona vs Wisconsin",
+        "Winner": "Arizona"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Gonzaga vs Purdue",
+        "Winner": "Purdue"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Michigan vs Alabama",
+        "Winner": "Michigan"
+    },
+    {
+        "Round": 3,
+        "Matchup": "Virginia vs Iowa St",
+        "Winner": "Virginia"
+    },
+    {
+        "Round": 4,
+        "Matchup": "Duke vs Connecticut",
+        "Winner": "Duke"
+    },
+    {
+        "Round": 4,
+        "Matchup": "Florida vs Houston",
+        "Winner": "Houston"
+    },
+    {
+        "Round": 4,
+        "Matchup": "Arizona vs Purdue",
+        "Winner": "Arizona"
+    },
+    {
+        "Round": 4,
+        "Matchup": "Michigan vs Virginia",
+        "Winner": "Michigan"
+    },
+    {
+        "Round": 5,
+        "Matchup": "Duke vs Houston",
+        "Winner": "Duke"
+    },
+    {
+        "Round": 5,
+        "Matchup": "Arizona vs Michigan",
+        "Winner": "Arizona"
+    },
+    {
+        "Round": 6,
+        "Matchup": "Duke vs Arizona",
+        "Winner": "Arizona"
+    }
+]

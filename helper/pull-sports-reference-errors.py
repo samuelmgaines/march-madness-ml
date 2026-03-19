@@ -5,10 +5,12 @@ import pandas as pd
 import requests
 import time
 
-LEAGUE = "men"
-# LEAGUE = "women"
+# LEAGUE = "men"
+LEAGUE = "women"
 
-mm_results_path = f'../data/{LEAGUE}/mm-results.csv' # if wanted year is not in mm-results, use first_rounds/<year>_firsts.csv
+# mm_results_path = f'../data/{LEAGUE}/mm-results.csv' # if wanted year is not in mm-results, use first_rounds/<year>_firsts.csv
+mm_results_path = f'../data/{LEAGUE}/first_rounds/2026_firsts.csv'
+
 sports_reference_names_path = 'sports-reference-names.json'
 errors_path = 'errors'
 error_list_filename = 'error-list.txt'

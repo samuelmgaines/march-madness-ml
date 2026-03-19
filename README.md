@@ -14,7 +14,7 @@ Data from previous March Madness tournaments (1985 - 2026 for men, 1994 - 2026 f
 
 Team stats from each season are pulled from [SportsReference](https://www.sports-reference.com/cbb) and stored in `data/men/yearly` and `data/women/yearly`. This data is not in the repository by default. Download instructions are found in [Download Seasonal Stats](#download-seasonal-stats).
 
-## Usage
+## Standard Usage
 
 All helper scripts should be run **from the helper directory**, not the root directory.
 
@@ -59,3 +59,7 @@ After filling out brackets, evaluate the predictions by running `evaluate.py`. T
 ## Results
 
 The model created a 2025 men's prediction that can be found in the `archive` folder. The algorithm's results were submitted in the ESPN Tournament Challenge, and can be viewed [here](https://fantasy.espn.com/games/tournament-challenge-bracket-2025/bracket?id=f7758260-02f2-11f0-bf6c-6defe417cf10). The algorithm's bracket scored 880 points, placing it in the 48.5 percentile across all 2025 brackets. Unfortunately, the algorithm selected 2-seed St. John's to win it all, who was ultimately eliminated in the second round of the tournament by 10-seed Arkansas.
+
+## Kaggle March Machine Learning Mania
+
+Development in progress.
