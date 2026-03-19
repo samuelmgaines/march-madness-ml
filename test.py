@@ -2,8 +2,8 @@ import joblib
 import json
 import pandas as pd
 
-# LEAGUE = "men"
-LEAGUE = "women"
+LEAGUE = "men"
+# LEAGUE = "women"
 prediction_years = [2026]  # Adjust this list to include the years you want to predict
 
 # Load the trained model
