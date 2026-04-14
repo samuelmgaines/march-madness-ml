@@ -14,7 +14,7 @@ Data from previous March Madness tournaments (1985 - 2026 for men, 1994 - 2026 f
 
 Team stats from each season are pulled from [SportsReference](https://www.sports-reference.com/cbb) and stored in `data/men/yearly` and `data/women/yearly`. This data is not in the repository by default. Download instructions are found in [Download Seasonal Stats](#download-seasonal-stats).
 
-## Standard Usage
+## Standard Usage (Bracket Filling)
 
 All helper scripts should be run **from the helper directory**, not the root directory.
 
@@ -56,10 +56,26 @@ After creating the model, fill out brackets by running `test.py`. Make sure the 
 
 After filling out brackets, evaluate the predictions by running `evaluate.py`. This will only work if results for predicted years are present in `data/men/mm-results.csv` or `data/women/mm-results.csv`.
 
+## Other Usage
+
+### Kaggle Machine Learning Mania
+
+The `kaggle` directory provides some scripts to generate a submission for the Kaggle Machine Learning Mania challenge, assuming the men's and women's models are already trained and first round matchups are provided as laid out in [Standard Usage](#standard-usage-bracket-filling). Make sure `MTeams.csv`, `WTems.csv`, `men_team_ids`, `women_team_ids`, and `SampleSubmissionStage2.csv` are up to date.
+
+`probabilities.py` generates the probability of Team 1 beating Team 2 in all possible game matchups. `combine.py` combines all generated probability files without redundancy (used to both combine men's and women's brackets and combine different brackets considering different play-in results). `generate_submission.py` takes the combined probability file and generates a file suitable for submission to the challenge.
+
 ## Results
 
-The model created a 2025 men's prediction that can be found in the `archive` folder. The algorithm's results were submitted in the ESPN Tournament Challenge, and can be viewed [here](https://fantasy.espn.com/games/tournament-challenge-bracket-2025/bracket?id=f7758260-02f2-11f0-bf6c-6defe417cf10). The algorithm's bracket scored 880 points, placing it in the 48.5 percentile across all 2025 brackets. Unfortunately, the algorithm selected 2-seed St. John's to win it all, who was ultimately eliminated in the second round of the tournament by 10-seed Arkansas.
+All results can be found in the `archive` directory.
 
-## Kaggle March Machine Learning Mania
+### 2025
 
-Development in progress.
+The model (as it existed in 2025) created a 2025 men's prediction. The algorithm's results were submitted in the ESPN Tournament Challenge, and can be viewed [here](https://fantasy.espn.com/games/tournament-challenge-bracket-2025/bracket?id=f7758260-02f2-11f0-bf6c-6defe417cf10). The algorithm's bracket scored 880 points, placing it in the 48.5 percentile across all 2025 men's brackets. Unfortunately, the algorithm selected 2-seed St. John's to win it all, who was ultimately eliminated in the second round of the tournament by 10-seed Arkansas.
+
+### 2026
+
+The model created 2026 men's and women's predictions. The algorithm's results were submitted in the ESPN Tournament Challenge. The men's bracket can be viewed [here](https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=1e51b760-1f07-11f1-bf74-b3a3c481c9dd). The algorithm's bracket scored 800 points, placing it in the 60.2 percentile across all 2026 men's brackets. The algorithm selected 1-seed Arizona to win it all, who was eliminated by future-champion Michigan in the Final Four.
+
+The women's bracket can be viewed [here](https://fantasy.espn.com/games/tournament-challenge-bracket-women-2026/bracket?id=10c58bd0-1f07-11f1-9a49-9107d93372e2). The algorithm's bracket scored a phenomenal 1720 points, placing it in the 99.8 percentile across across all 2026 women's brackets. The algorithm correctly predicted the champion, runner-up, and all of the Final Four.
+
+Additionally, the model was used to generate probabilistic predictions for all men's and women's games. These predictions were submitted in [Kaggle's Machine Learning Mania](https://www.kaggle.com/competitions/march-machine-learning-mania-2026/overview) challenge. The submission, titled "Sam Gaines", placed 1287th out of 3462 submissions.
